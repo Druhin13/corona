@@ -32,7 +32,7 @@ h1 {
 
 .horizontal-scroll {
 	margin-top: 14vh;
-	height: 35vh;
+	height: 37vh;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
