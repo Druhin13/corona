@@ -1,16 +1,23 @@
 body {
-	margin-left: 5vw;
+	padding-left: 5vw;
 }
 
-.top{
+
+.top {
 	position: absolute;
 	top: 0;
+	left: 0;
 	margin-top: 0;
 	margin-left: 0;
-	height: 14vh;
+	height: 13vh;
 	width: 100vw;
 	background-color: white;
 	position: fixed;
+}
+
+.top h3,
+.top h1 {
+	padding-left: 5vw;
 }
 
 .date {
@@ -31,11 +38,24 @@ h1 {
 }
 
 .horizontal-scroll {
-	margin-top: 14vh;
+	margin-top: 15vh;
 	height: 37vh;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
+	animation: trans2 0.75s ease-in-out;
+}
+
+@keyframes trans2 {
+	from {
+		opacity: 0;
+		transform: translateX(20%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .box::-webkit-scrollbar {
@@ -69,7 +89,6 @@ h3 {
 
 h2 {
 	margin-top: 0;
-	margin-right: 20vw;
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.2vh;
 	font-weight: 700;
@@ -130,4 +149,20 @@ h6 {
 	letter-spacing: 0.5px;
 	text-align: left;
 	color: #b7b7b7;
+}
+
+.bottom {
+	animation: trans1 0.75s ease-in-out;
+}
+
+@keyframes trans1 {
+	from {
+		opacity: 0;
+		transform: translateY(20%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
