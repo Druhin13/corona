@@ -57,11 +57,65 @@ h3 {
 
 h2 {
 	margin-top: 0;
-	margin-right: 20vw;;
+	margin-right: 20vw;
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.2vh;
 	font-weight: 700;
 	letter-spacing: -0.1px;
 	text-align: left;
 	color: #000000;
+}
+
+h4 {
+	margin-top: 1vh;
+	;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.6vh;
+	font-weight: 800;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000000;
+}
+
+.a1 {
+	display: flex;
+}
+
+.a1 img {
+	width: 22vw;
+	height: 10vh;
+	object-fit: cover;
+	border-radius: 1vh;
+	box-shadow: 0 0.5vh 2vh 0 #00000033;
+}
+
+.a1 div {
+	margin-left: 5vw;
+	height: 10vh;
+}
+
+.a1 h3 {
+	margin-top: 0vh;
+}
+
+h5 {
+	width: 60vw;
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.7vh;
+	font-weight: 700;
+	letter-spacing: -0.1px;
+	text-align: left;
+	color: #000000;
+}
+
+h6 {
+	margin-bottom: 0;
+	margin-top: -1.2vh;
+	font-size: 1.2vh;
+	font-weight: 800;
+	font-style: normal;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #b7b7b7;
 }
