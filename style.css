@@ -43,7 +43,7 @@ h1 {
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
-	animation: trans2 0.75s ease-in-out;
+	animation: trans2 1s ease-in-out;
 }
 
 @keyframes trans2 {
@@ -152,7 +152,7 @@ h6 {
 }
 
 .bottom {
-	animation: trans1 0.75s ease-in-out;
+	animation: trans1 1s ease-in-out;
 }
 
 @keyframes trans1 {
