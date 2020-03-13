@@ -203,3 +203,12 @@ h6 {
 	margin-left: 5vw;
 	width: 4vh;
 }
+
+.top img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 5vh;
+	margin-top: 4vh;
+	margin-right: 5vw;
+}
