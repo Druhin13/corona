@@ -1,5 +1,5 @@
 body {
-	padding-left: 5vw;
+
 }
 
 
@@ -69,6 +69,10 @@ h1 {
 	width: 80vw;
 	display: inline-block;
 	margin-right: 5vw;
+}
+
+.card1{
+	padding-left: 5vw;
 }
 
 .card {
@@ -153,6 +157,7 @@ h6 {
 
 .bottom {
 	animation: trans1 1s ease-in-out;
+	padding-left: 5vw;
 }
 
 @keyframes trans1 {
