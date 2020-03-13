@@ -16,6 +16,7 @@ body {
 
 .top h3,
 .top h1 {
+	margin-left: 0;
 	padding-left: 5vw;
 }
 
@@ -41,26 +42,26 @@ h1 {
 	display: none;
 }
 
-.card {
+.map {
 	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
 	margin-top: 15vh;
 	margin-left: 5vw;
 	width: 90vw;
-	height: 23vh;
+	height: 25vh;
 	object-fit: cover;
 	border-radius: 1vh;
 	box-shadow: 0 0.5vh 2vh 0 #00000033;
 }
 
-/*.card {
-	margin-right: 5vw;
-	margin-top: 15vh;
-	object-fit: cover;
-	border-radius: 1vh;
-	box-shadow: 0 0.5vh 2vh 0 #00000033;
-}*/
-
 h3 {
+	margin-left: 5vw;
 	margin-top: 2vh;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.2vh;
@@ -71,6 +72,7 @@ h3 {
 }
 
 h2 {
+	margin-left: 5vw;
 	margin-top: 0;
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.2vh;
@@ -101,6 +103,7 @@ h2 {
 }
 
 .loader-wrapper h3 {
+	margin-left: 0;
 	margin-top: 60vh;
 	color: #131313;
 	font-weight: 400;
