@@ -176,7 +176,7 @@ h6 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: white;
+	background-color: #F3F3F3;
 	z-index: 999;
 }
 
@@ -191,8 +191,9 @@ h6 {
 
 .loader-wrapper h3 {
 	margin-top: 60vh;
-	color: #5D5D5D;
+	color: #131313;
 	font-weight: 400;
+	font-size: 1.5vh;
 	display: flex;
 	justify-content: center;
 }
