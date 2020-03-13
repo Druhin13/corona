@@ -190,8 +190,9 @@ h6 {
 }
 
 .loader-wrapper h3 {
-	margin-top: 55vh;
+	margin-top: 60vh;
 	color: #5D5D5D;
+	font-weight: 400;
 	display: flex;
 	justify-content: center;
 }
