@@ -1,6 +1,6 @@
 var viewportHeight = $(window).height(); // == 100vh
 var reqheight = viewportHeight * 45/100.0; // ==46vh
-console.log(reqheight);
+//console.log(reqheight);
 
 $(document).ready(function () {
 
