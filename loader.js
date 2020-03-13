@@ -1,4 +1,3 @@
-
-$(window).on("load",function(){
-			$(".loader-wrapper").delay(3000).slideUp(500);
-		});
+$(window).on("load", function () {
+	$(".loader-wrapper").delay(3000).slideUp(1000);
+});
