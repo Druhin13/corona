@@ -16,7 +16,7 @@
 		color: #000;
 	}
 
-	.h6 {
+	h6 {
 		color: #b7b7b7;
 	}
 
@@ -36,6 +36,7 @@
 	.top {
 		background-color: #fff;
 	}
+	
 }
 
 
@@ -57,7 +58,7 @@
 		color: #fff;
 	}
 
-	.h6 {
+	h6 {
 		color: #B5B5B5;
 	}
 
