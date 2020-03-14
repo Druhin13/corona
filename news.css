@@ -148,9 +148,7 @@ h2 {
 
 @media (prefers-color-scheme: light) {
 
-	.india div h3,
-	.china div h3,
-	.world div h3 {
+	.data h4{
 		color: #5d5d5d;
 	}
 }
@@ -158,9 +156,7 @@ h2 {
 /* dark mode css */
 @media (prefers-color-scheme: dark) {
 
-	.india div h3,
-	.china div h3,
-	.world div h3 {
-		color: #c8c8c8;
+	.data h4 {
+		color: #cecece;
 	}
 }
