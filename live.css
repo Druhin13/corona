@@ -60,7 +60,7 @@ a {
 	box-shadow: 0 0.5vh 2vh 0 #00000033;
 }
 
-h3 {
+.heading {
 	margin-left: 5vw;
 	margin-top: 2vh;
 	font-family: 'Raleway', sans-serif;
@@ -95,11 +95,13 @@ h2 {
 
 .loader-wrapper h1 {
 	margin-left: 5vw;
+	font-family: 'Raleway', sans-serif;
 
 }
 
 .loader-wrapper h2 {
 	margin-left: 5vw;
+	font-family: 'Raleway', sans-serif;
 }
 
 .loader-wrapper h3 {
@@ -110,6 +112,7 @@ h2 {
 	font-size: 1.5vh;
 	display: flex;
 	justify-content: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 .loader-wrapper img {
@@ -127,3 +130,60 @@ h2 {
 	margin-right: 5vw;
 }
 
+.data {
+	display: none;
+	margin-top: 6vh;
+	margin-left: 5vw;
+}
+
+.data h2 {
+	margin-left: 0;
+	font-size: 5.5vh;
+	font-weight: 400;
+	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.india div h3,
+.china div h3,
+.world div h3 {
+	color: #5d5d5d;
+	margin-top: 0.5vh;
+	font-weight: 400;
+	margin-left: 0;
+	font-size: 1.5vh;
+	font-family: 'Raleway', sans-serif;
+}
+
+.india,
+.china,
+.world {
+	display: flex;
+}
+
+.india div,
+.china div,
+.world div {
+	margin-right: 12vw;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+
+	.india div h3,
+	.china div h3,
+	.world div h3 {
+		color: #5d5d5d;
+	}
+}
+
+/* dark mode css */
+@media (prefers-color-scheme: dark) {
+
+	.india div h3,
+	.china div h3,
+	.world div h3 {
+		color: #c8c8c8;
+	}
+}
