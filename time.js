@@ -25,7 +25,7 @@ if (time >= 18 || time <= 4) {
 	for (var i = 0; i < h4.length; i++) {
 		h4[i].style.color = "#fff";
 	}
-	var h3 = document.getElementsByTagName("h3");
+	var h3 = document.getElementsByClassName("liveh3");
 	for (var i = 0; i < h3.length; i++) {
 		h3[i].style.color = "#c8c8c8";
 	}
