@@ -47,7 +47,6 @@ h1 {
 .card1,
 .card2,
 .card3 {
-	height: 100%;
 	width: 80vw;
 	display: inline-block;
 	margin-right: 5vw;
@@ -58,6 +57,7 @@ h1 {
 }
 
 .card {
+	width: 100%;
 	object-fit: cover;
 	border-radius: 1vh;
 	box-shadow: 0 0.5vh 2vh 0 #00000033;
@@ -139,6 +139,7 @@ h6 {
 }
 
 .bottom {
+	margin-top: 4vh;
 	padding-left: 5vw;
 }
 
@@ -183,4 +184,37 @@ h6 {
 	width: 5vh;
 	margin-top: 4vh;
 	margin-right: 5vw;
+}
+
+.news {
+
+}
+
+h2 {
+	margin-left: 5vw;
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.2vh;
+	font-weight: 700;
+	letter-spacing: -0.1px;
+	text-align: left;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+	margin-top: 15vh;
+	margin-left: 5vw;
+	width: 90vw;
+	height: 25vh;
+	object-fit: cover;
+	border-radius: 1vh;
+	box-shadow: 0 0.5vh 2vh 0 #00000033;
+}
+
+.heading {
+	margin-left: 5vw;
 }
