@@ -10,8 +10,8 @@ body {
 	margin-left: 0;
 	height: 13vh;
 	width: 100vw;
-	background-color: white;
 	position: fixed;
+	background-color: "#fff";
 }
 
 .top h3,
@@ -187,3 +187,4 @@ h2 {
 		color: #c8c8c8;
 	}
 }
+

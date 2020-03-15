@@ -7,6 +7,7 @@ console.log(time);
 if (time >= 18 || time <= 4) {
 
 	//dark mode - (time >= 18 || time <= 4)
+	//for testing - (time<18)
 
 	document.body.style.backgroundColor = "#1D1D1D";
 
@@ -23,6 +24,10 @@ if (time >= 18 || time <= 4) {
 	var h4 = document.getElementsByTagName("h4");
 	for (var i = 0; i < h4.length; i++) {
 		h4[i].style.color = "#fff";
+	}
+	var h3 = document.getElementsByTagName("h3");
+	for (var i = 0; i < h3.length; i++) {
+		h3[i].style.color = "#c8c8c8";
 	}
 	var h5 = document.getElementsByTagName("h5");
 	for (var i = 0; i < h5.length; i++) {
@@ -67,6 +72,10 @@ if (time >= 18 || time <= 4) {
 	var h2 = document.getElementsByTagName("h2");
 	for (var i = 0; i < h2.length; i++) {
 		h2[i].style.color = "#000";
+	}
+	var h3 = document.getElementsByTagName("h3");
+	for (var i = 0; i < h3.length; i++) {
+		h3[i].style.color = "#5d5d5d";
 	}
 	var h4 = document.getElementsByTagName("h4");
 	for (var i = 0; i < h4.length; i++) {
