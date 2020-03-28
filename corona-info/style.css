@@ -118,3 +118,34 @@ h4{
 	font-weight: 400;
 	color: #545454;
 }
+
+.state {
+	text-align: center;
+	justify-content: center;
+}
+
+.state h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2vh;
+	font-weight: 600;
+	color: #000000;
+}
+
+.state h3 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5vh;
+	font-weight: 400;
+	color: #545454;
+}
+
+.help-phn {
+	margin-top: 2vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.help-phn img {
+	height: 4.5vh;
+	padding-right: 2vw;
+}
