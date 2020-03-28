@@ -109,3 +109,12 @@ p {
 	width: 44vw;
 	padding-right: 2vw;
 }
+
+h4{
+	text-align: center;
+	justify-content: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5vh;
+	font-weight: 400;
+	color: #545454;
+}
