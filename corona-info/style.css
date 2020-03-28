@@ -98,3 +98,14 @@ p {
 	width: 44vw;
 	padding-right: 2vw;
 }
+
+.dont{
+	display: flex;
+	margin-left: 5vw;
+	margin-top: 2vh;
+}
+
+.dont img{
+	width: 44vw;
+	padding-right: 2vw;
+}
