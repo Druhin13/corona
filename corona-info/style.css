@@ -33,14 +33,46 @@
 	position: fixed;
 }
 
+.heading {
+	margin-left: 5vw;
+}
+
 .heading h2 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 15px;
+	font-size: 2vh;
 	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.33;
-	letter-spacing: 0.23px;
-	text-align: left;
 	color: #000000;
+}
+
+.heading h3 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5vh;
+	font-weight: 400;
+	color: #545454;
+}
+
+.top-space {
+	height: 11vh;
+}
+
+.phn {
+	margin-top: 2vh;
+	margin-left: 5vw;
+	display: flex;
+}
+
+.phn img {
+	height: 4vh;
+	padding-right: 2vw;
+}
+
+.state-help {
+	margin-left: 5vw;
+	margin-top: 1vh;
+	height: 2.5vh;
+	padding-right: 2vw;
+}
+
+p {
+	height: 5vh;
 }
