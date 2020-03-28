@@ -7,7 +7,7 @@
 	position: fixed;
 	height: 7vh;
 	width: 100vw;
-	background-color: #8AA2F2;
+	background-color: #4571e2;
 	border-bottom-left-radius: 2.3vh;
 	border-bottom-right-radius: 2.3vh;
 	display: flex;
@@ -31,4 +31,16 @@
 	margin-right: 10vw;
 	margin-top: 2.4vh;
 	position: fixed;
+}
+
+.heading h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: 0.23px;
+	text-align: left;
+	color: #000000;
 }
