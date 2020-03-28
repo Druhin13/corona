@@ -88,3 +88,13 @@ p {
 	padding-right: 2vw;
 }
 
+.do{
+	display: flex;
+	margin-left: 5vw;
+	margin-top: 2vh;
+}
+
+.do img{
+	width: 44vw;
+	padding-right: 2vw;
+}
