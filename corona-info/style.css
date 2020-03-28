@@ -76,3 +76,15 @@
 p {
 	height: 5vh;
 }
+
+.data {
+	display: flex;
+	margin-left: 5vw;
+	margin-top: 2vh;
+}
+
+.data img{
+	height: 11vh;
+	padding-right: 2vw;
+}
+
