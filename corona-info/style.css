@@ -13,6 +13,7 @@
 	display: flex;
 	text-align: center;
 	justify-content: center;
+	z-index: 999;
 }
 
 .topbar h1 {
@@ -118,6 +119,8 @@ h4{
 	font-weight: 400;
 	color: #545454;
 }
+
+
 
 .state {
 	text-align: center;
