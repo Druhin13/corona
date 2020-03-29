@@ -1,0 +1,67 @@
+
+.state {
+	text-align: center;
+	justify-content: center;
+}
+
+.state h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #000000;
+}
+
+.help-phn {
+	margin-top: 2vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.help-phn img {
+	height: 4.5vh;
+	padding-right: 2vw;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.topbar {
+	position: fixed;
+	height: 7vh;
+	width: 100vw;
+	background-color: #4571e2;
+	border-bottom-left-radius: 2.3vh;
+	border-bottom-right-radius: 2.3vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	z-index: 999;
+}
+
+.topbar h1 {
+	margin: auto;
+	text-align: center;
+	font-size: 2vh;
+	font-weight: 600;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+}
+
+.top-space {
+	height: 11vh;
+}
+
+p {
+	height: 5vh;
+}
+
+.druhin{
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #545454;
+}
