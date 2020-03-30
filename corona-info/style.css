@@ -126,11 +126,11 @@ video{
 	transform: scale(1.14);
 }
 
-.when-tested {
+.when-tested img {
 	margin-left: 5vw;
 	width: 90vw;
 }
 
-.when-tested:hover{
-	transform: scale(1.14);
+.when-tested img:hover{
+	transform: scale(1.1);
 }
