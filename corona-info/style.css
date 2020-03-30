@@ -77,7 +77,7 @@ p {
 }
 
 .data img{
-	height: 11vh;
+	width: 28.6vw;
 	padding-right: 2vw;
 }
 
@@ -116,4 +116,8 @@ video{
 	width: 90vw;
 	margin-left: 5vw;
 	border-radius: 1vh;
+}
+
+.do img:hover{
+	transform: scale(1.1);
 }

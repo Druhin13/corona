@@ -32,7 +32,8 @@
 	position: fixed;
 	height: 7vh;
 	width: 100vw;
-	background-color: #4571e2;
+/*	background-color: #4571e2;*/
+	background-image: linear-gradient(to bottom, #063B59, #4CAEE3);
 	border-bottom-left-radius: 2.3vh;
 	border-bottom-right-radius: 2.3vh;
 	display: flex;
