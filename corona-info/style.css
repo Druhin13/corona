@@ -7,7 +7,7 @@
 	position: fixed;
 	height: 7vh;
 	width: 100vw;
-/*	background-color: #4571E2;*/
+	/*	background-color: #4571E2;*/
 	background-image: linear-gradient(to bottom, #063B59, #4CAEE3);
 	border-bottom-left-radius: 2.3vh;
 	border-bottom-right-radius: 2.3vh;
@@ -76,34 +76,34 @@ p {
 	margin-top: 2vh;
 }
 
-.data img{
+.data img {
 	width: 28.6vw;
 	padding-right: 2vw;
 }
 
-.do{
+.do {
 	display: flex;
 	margin-left: 5vw;
 	margin-top: 2vh;
 }
 
-.do img{
+.do img {
 	width: 44vw;
 	padding-right: 2vw;
 }
 
-.dont{
+.dont {
 	display: flex;
 	margin-left: 5vw;
 	margin-top: 2vh;
 }
 
-.dont img{
+.dont img {
 	width: 44vw;
 	padding-right: 2vw;
 }
 
-h4{
+h4 {
 	text-align: center;
 	justify-content: center;
 	font-family: 'Nunito', sans-serif;
@@ -112,18 +112,10 @@ h4{
 	color: #545454;
 }
 
-video{
+video {
 	width: 90vw;
 	margin-left: 5vw;
 	border-radius: 1vh;
-}
-
-.do img:hover{
-	transform: scale(1.14);
-}
-
-.dont img:hover{
-	transform: scale(1.14);
 }
 
 .when-tested img {
@@ -131,6 +123,64 @@ video{
 	width: 90vw;
 }
 
-.when-tested img:hover{
-	transform: scale(1.1);
+.desktop {
+	display: none;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+	.desktop {
+		margin-top: 25vh;
+		display: block;
+		font-family: 'Nunito', sans-serif;
+		font-size: 5vh;
+		font-weight: 600;
+		justify-content: center;
+		text-align: center;
+		color: #fff;
+	}
+
+	.topbar,
+	.all {
+		display: none;
+	}
+
+	body {
+		background-color: #131313;
+	}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	.desktop {
+		margin-top: 25vh;
+		display: block;
+		font-family: 'Nunito', sans-serif;
+		font-size: 5vh;
+		font-weight: 600;
+		justify-content: center;
+		text-align: center;
+		color: #fff;
+	}
+
+	.topbar,
+	.all {
+		display: none;
+	}
+
+	body {
+		background-color: #131313;
+	}
+
 }
