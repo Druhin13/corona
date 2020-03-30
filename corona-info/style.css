@@ -185,14 +185,33 @@ video {
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-	html {
-		transform: rotate(-90deg);
-		transform-origin: left top;
-		width: 100vh;
-		overflow-x: hidden;
-		position: absolute;
-		top: 100%;
-		left: 0;
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .desktop {
+		margin-top: 25vh;
+		display: block;
+		font-family: 'Nunito', sans-serif;
+		font-size: 5vh;
+		font-weight: 600;
+		justify-content: center;
+		text-align: center;
+		color: #fff;
+	  	content: "Rotate your device";
 	}
+
+	.topbar,
+	.all {
+		display: none;
+	}
+
+	body {
+		background-color: #131313;
+	}
+  
 }
