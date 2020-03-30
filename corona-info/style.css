@@ -125,3 +125,12 @@ video{
 .dont img:hover{
 	transform: scale(1.14);
 }
+
+.when-tested {
+	margin-left: 5vw;
+	width: 90vw;
+}
+
+.when-tested:hover{
+	transform: scale(1.14);
+}
