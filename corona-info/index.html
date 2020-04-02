@@ -99,7 +99,15 @@
 			} catch (error) {}
 		</script>
 	</div>
-
+	
+	<script> 
+		$(document).ready(function(){
+		setInterval(function(){
+     		$("#refresh").load(window.location.href + " #refresh" );
+		}, 30000);
+		});
+	</script>
+	
 	<script src="app.js"></script>
 	<script src="scroll-news.js"></script>
 
