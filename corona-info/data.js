@@ -1,3 +1,52 @@
+let myChart = document.getElementById('myChart').getContext('2d');
+
+//Global options
+Chart.defaults.global.defaultFontFamily = 'Nunito';
+Chart.defaults.global.defaultFontSize = 25;
+Chart.defaults.global.defaultFontColor = '#000';
+
+let massPopChart = new Chart(myChart, {
+	type: 'line',
+	data: {
+		
+		//add a space
+		
+		labels: ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','' ],
+		datasets: [{
+			label: 'Daily Cases',
+			
+			//add daily case
+			
+			data: [
+				1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,22,2,1,3,5,9,15,7,12,9,16,5,15,19,25,27,60,76,69,94,74,86,73,153,141,115,190,306,424,486,560,579,605,489
+			],
+			backgroundColor: '#F5AEA8'
+		}]
+	},
+	options: {
+		title:{
+			display:true,
+			text:'Daily Cases in India',
+			fontSize:40
+		},
+		legend:{
+			display:false
+		},
+		layout:{
+			padding:{
+				left:25,
+				right:25,
+			}
+		}
+	}
+});
+
+
+
+/******************************************/
+
+
+
 const api_url = 'https://api.covid19india.org/data.json';
 
 async function getData() {
@@ -36,11 +85,10 @@ async function getData2() {
 
 	var country = data2.country_name; //country name
 	var state = data2.region; //state name
-	
-	if(state == "National Capital Territory of Delhi")
-		{
-			state = "Delhi";
-		}
+
+	if (state == "National Capital Territory of Delhi") {
+		state = "Delhi";
+	}
 
 	document.getElementById("state_name").innerHTML = state; //showing the state name
 
@@ -60,3 +108,20 @@ getData2();
 var interval = setInterval(function () {
 	getData2();
 }, 120000);
+
+
+
+
+
+/***********************************/
+
+
+
+async function getData3() {
+	const response3 = await fetch(api_url);
+	const data3 = await response3.json();
+
+	console.log(data3);
+}
+
+getData3();
