@@ -43,6 +43,56 @@ let massPopChart = new Chart(myChart, {
 
 
 
+//*********************************************************//
+
+
+
+let myChart2 = document.getElementById('myChart2').getContext('2d');
+
+//Global options
+Chart.defaults.global.defaultFontFamily = 'Nunito';
+Chart.defaults.global.defaultFontSize = 25;
+Chart.defaults.global.defaultFontColor = '#000';
+
+let massPopChart2 = new Chart(myChart2, {
+	type: 'bar',
+	data: {
+		
+		//add a space
+		
+		labels: ['0-10','11-20','21-30','31-40','41-50','51-60','61-70','71-80','81-90','91-100'],
+		datasets: [{
+			label: 'Patient Age',
+			
+			//add daily case
+			
+			data: [
+				25,61,211,246,169,152,108,25,6,2
+			],
+			backgroundColor: '#ACD1F2'
+		}]
+	},
+	options: {
+		title:{
+			display:true,
+			text:'Patient Age',
+			fontSize:40
+		},
+		legend:{
+			display:false
+		},
+		layout:{
+			padding:{
+				left:25,
+				right:25,
+			}
+		}
+	}
+});
+
+
+
+
 /******************************************/
 
 
