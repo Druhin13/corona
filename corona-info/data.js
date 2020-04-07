@@ -75,7 +75,7 @@ let massPopChart2 = new Chart(myChart2, {
 	options: {
 		title:{
 			display:true,
-			text:'Patient Age',
+			text:'Patient Age in India',
 			fontSize:40
 		},
 		legend:{
