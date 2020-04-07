@@ -10,7 +10,7 @@ $(document).ready(function () {
 			$('h1').html('Stay HOME - Stay SAFE');
 		} else {
 			//set h1 text to yes
-			$('h1').html('Coronavirus Info - India 🇮🇳');
+			$('h1').html('Corona Info - India 🇮🇳');
 		}
 	});
 });
