@@ -62,7 +62,7 @@ let massPopChart2 = new Chart(myChart2, {
 		
 		labels: ['0-10','11-20','21-30','31-40','41-50','51-60','61-70','71-80','81-90','91-100'],
 		datasets: [{
-			label: 'Patient Age',
+			label: 'Total Cases',
 			
 			//add daily case
 			
