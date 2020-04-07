@@ -109,19 +109,3 @@ var interval = setInterval(function () {
 	getData2();
 }, 120000);
 
-
-
-
-
-/***********************************/
-
-
-
-async function getData3() {
-	const response3 = await fetch(api_url);
-	const data3 = await response3.json();
-
-	console.log(data3);
-}
-
-getData3();
