@@ -16,6 +16,70 @@
 		medianet_versionId = "3121199";
 	</script>
 	<script src="https://contextual.media.net/dmedianet.js?cid=8CU281U8U" async="async"></script>
+	
+	
+		<style>
+		* {
+			margin: 0;
+		}
+
+		.data {
+			display: flex;
+		}
+
+		.data div {
+			height: 10vh;
+			width: 28vw;
+			margin-right: 2vw;
+			text-align: center;
+		}
+
+		.data div h2 {
+			margin-top: 1.5vh;
+			font-size: 3vh;
+			font-family: 'Nunito', sans-serif;
+		}
+
+		.data div h3 {
+			margin-top: 0.5vh;
+			font-size: 1.8vh;
+			font-family: 'Nunito', sans-serif;
+		}
+
+		.grey {
+			border-radius: 1vh;
+			border: solid 0.2vh #cecece;
+			background-color: #f2f2f2;
+		}
+
+		.green {
+			border-radius: 1vh;
+			border: solid 0.2vh #a8dab5;
+			background-color: #e7f4ea;
+		}
+
+		.red {
+			border-radius: 1vh;
+			border: solid 0.2vh #f5aea8;
+			background-color: #fce8e7;
+		}
+		
+		.grey h2, .grey h3{
+			color: #000;
+		} 
+		
+		.green h2, .green h3{
+			color: #2d8749;
+		}
+		
+		.red h2, .red h3{
+			color: #a41a18;
+		} 
+		
+		
+	</style>
+	
+	
 </head>
 
 <body>
@@ -54,9 +118,18 @@
 		</div>
 
 		<div class="animated fadeInLeft delay-2s data">
-			<img id="refresh1" src="assets/total.svg">
-			<img id="refresh2" src="assets/recovered.svg">
-			<img id="refresh3" src="assets/deaths.svg">
+			<div class="grey">
+				<h2 id="total"><b>0</b></h2>
+				<h3>Total Cases</h3>
+			</div>
+			<div class="green">
+				<h2 id="recovered"><b>0</b></h2>
+				<h3>Recovered</h3>
+			</div>
+			<div class="red">
+				<h2 id="death"><b>0</b></h2>
+				<h3>Deaths</h3>
+			</div>
 		</div>
 
 		<p></p>
@@ -89,21 +162,21 @@
 	<p class="top-space"></p>
 	<h4><b>Made by Druhin</b></h4>
 	<p></p>
-	
-	
-	<script> 
-		$(document).ready(function(){
-		setInterval(function(){
-     		$("#refresh1").load(window.location.href + " #refresh1" );
-		$("#refresh2").load(window.location.href + " #refresh2" );
-		$("#refresh3").load(window.location.href + " #refresh3" );
-		}, 30000);
-		});
-	</script>
-	
-	
+
+
+	<div id="385331738">
+		<script type="text/javascript">
+			try {
+				window._mNHandle.queue.push(function() {
+					window._mNDetails.loadTag("385331738", "728x90", "385331738");
+				});
+			} catch (error) {}
+		</script>
+	</div>
+
 	<script src="app.js"></script>
 	<script src="scroll-news.js"></script>
+	<script src="data.js"></script>
 
 </body>
 
