@@ -24,7 +24,7 @@ var interval = setInterval(function () {
 /***********************************/
 
 
-const loc_url = 'http://ip-api.com/json'; //location
+const loc_url = 'https://ipapi.co/json'; //location
 const state_url = 'https://api.covid19india.org/data.json'; //statewise data
 
 async function getData2() {
@@ -34,8 +34,8 @@ async function getData2() {
 	const response3 = await fetch(state_url); //fetching statewise data
 	const data3 = await response3.json();
 
-	var country = data2.country; //country name
-	var state = data2.regionName; //state name
+	var country = data2.country_name; //country name
+	var state = data2.region; //state name
 
 	document.getElementById("state_name").innerHTML = state; //showing the state name
 
