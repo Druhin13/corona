@@ -6,7 +6,7 @@ Chart.defaults.global.defaultFontSize = 25;
 Chart.defaults.global.defaultFontColor = '#000';
 
 let massPopChart = new Chart(myChart, {
-	type: 'line',
+	type: 'bar',
 	data: {
 		
 		//add a space
