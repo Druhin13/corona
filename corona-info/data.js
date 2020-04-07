@@ -36,6 +36,11 @@ async function getData2() {
 
 	var country = data2.country_name; //country name
 	var state = data2.region; //state name
+	
+	if(state == "National Capital Territory of Delhi")
+		{
+			state = "Delhi";
+		}
 
 	document.getElementById("state_name").innerHTML = state; //showing the state name
 
