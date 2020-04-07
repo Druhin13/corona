@@ -37,6 +37,8 @@ async function getData2() {
 	var country = data2.country; //country name
 	var state = data2.regionName; //state name
 
+	document.getElementById("state_name").innerHTML = state; //showing the state name
+
 
 	for (i = 1; i <= 37; i++) { //going through all the data
 		if (data3.statewise[i].state == state) { //searching for the state name in the database
