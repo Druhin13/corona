@@ -44,6 +44,25 @@
 	color: #545454;
 }
 
+.heading2 {
+	margin-left: 5vw;
+	display: flex;
+}
+
+.heading2 h3 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.7vh;
+	font-weight: 400;
+	color: #545454;
+}
+
+.all-states {
+	text-decoration: none;
+	position: absolute;
+	right: 0;
+	margin-right: 5vw;
+}
+
 .top-space {
 	height: 11vh;
 }
@@ -192,8 +211,8 @@ video {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-  .desktop {
+
+	.desktop {
 		margin-top: 25vh;
 		display: block;
 		font-family: 'Nunito', sans-serif;
@@ -202,7 +221,7 @@ video {
 		justify-content: center;
 		text-align: center;
 		color: #fff;
-	  	content: "Rotate your device";
+		content: "Rotate your device";
 	}
 
 	.topbar,
@@ -213,5 +232,5 @@ video {
 	body {
 		background-color: #131313;
 	}
-  
+
 }
