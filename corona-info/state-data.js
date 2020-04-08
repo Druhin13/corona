@@ -15,7 +15,7 @@ async function getData() {
 	
 	//rank1
 	
-	document.getElementById("s1").innerHTML = (data.statewise[1].state);
+	document.getElementById("s1").innerHTML = "1.&nbsp;&nbsp;"+(data.statewise[1].state);
 	//  console.log(data.statewise[1].state);
 	document.getElementById("t1").innerHTML = (data.statewise[1].confirmed);
 	//  console.log(data.statewise[1].confirmed);
@@ -30,7 +30,7 @@ async function getData() {
 	
 	//rank2
 	
-	document.getElementById("s2").innerHTML = (data.statewise[2].state);
+	document.getElementById("s2").innerHTML = "2.&nbsp;&nbsp;"+(data.statewise[2].state);
 	//  console.log(data.statewise[2].state);
 	document.getElementById("t2").innerHTML = (data.statewise[2].confirmed);
 	//  console.log(data.statewise[2].confirmed);
@@ -45,7 +45,7 @@ async function getData() {
 	
 	//rank3
 	
-	document.getElementById("s3").innerHTML = (data.statewise[3].state);
+	document.getElementById("s3").innerHTML = "3.&nbsp;&nbsp;"+(data.statewise[3].state);
 	//  console.log(data.statewise[3].state);
 	document.getElementById("t3").innerHTML = (data.statewise[3].confirmed);
 	//  console.log(data.statewise[3].confirmed);
@@ -60,7 +60,7 @@ async function getData() {
 	
 	//rank4
 	
-	document.getElementById("s4").innerHTML = (data.statewise[4].state);
+	document.getElementById("s4").innerHTML = "4.&nbsp;&nbsp;"+(data.statewise[4].state);
 	//  console.log(data.statewise[4].state);
 	document.getElementById("t4").innerHTML = (data.statewise[4].confirmed);
 	//  console.log(data.statewise[4].confirmed);
@@ -75,7 +75,7 @@ async function getData() {
 	
 	//rank5
 	
-	document.getElementById("s5").innerHTML = (data.statewise[5].state);
+	document.getElementById("s5").innerHTML = "5.&nbsp;&nbsp;"+(data.statewise[5].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t5").innerHTML = (data.statewise[5].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -90,7 +90,7 @@ async function getData() {
 	
 	//rank6
 	
-	document.getElementById("s6").innerHTML = (data.statewise[6].state);
+	document.getElementById("s6").innerHTML = "6.&nbsp;&nbsp;"+(data.statewise[6].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t6").innerHTML = (data.statewise[6].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -105,7 +105,7 @@ async function getData() {
 	
 	//rank7
 	
-	document.getElementById("s7").innerHTML = (data.statewise[7].state);
+	document.getElementById("s7").innerHTML = "7.&nbsp;&nbsp;"+(data.statewise[7].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t7").innerHTML = (data.statewise[7].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -120,7 +120,7 @@ async function getData() {
 	
 	//rank8
 	
-	document.getElementById("s8").innerHTML = (data.statewise[8].state);
+	document.getElementById("s8").innerHTML = "8.&nbsp;&nbsp;"+(data.statewise[8].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t8").innerHTML = (data.statewise[8].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -135,7 +135,7 @@ async function getData() {
 	
 	//rank9
 	
-	document.getElementById("s9").innerHTML = (data.statewise[9].state);
+	document.getElementById("s9").innerHTML = "9.&nbsp;&nbsp;"+(data.statewise[9].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t9").innerHTML = (data.statewise[9].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -150,7 +150,7 @@ async function getData() {
 	
 	//rank10
 	
-	document.getElementById("s10").innerHTML = (data.statewise[10].state);
+	document.getElementById("s10").innerHTML = "10.&nbsp;&nbsp;"+(data.statewise[10].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t10").innerHTML = (data.statewise[10].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -165,7 +165,7 @@ async function getData() {
 	
 	//rank11
 	
-	document.getElementById("s11").innerHTML = (data.statewise[11].state);
+	document.getElementById("s11").innerHTML = "11.&nbsp;&nbsp;"+(data.statewise[11].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t11").innerHTML = (data.statewise[11].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -180,7 +180,7 @@ async function getData() {
 	
 	//rank12
 	
-	document.getElementById("s12").innerHTML = (data.statewise[12].state);
+	document.getElementById("s12").innerHTML = "12.&nbsp;&nbsp;"+(data.statewise[12].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t12").innerHTML = (data.statewise[12].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -195,7 +195,7 @@ async function getData() {
 	
 	//rank13
 	
-	document.getElementById("s13").innerHTML = (data.statewise[13].state);
+	document.getElementById("s13").innerHTML = "13.&nbsp;&nbsp;"+(data.statewise[13].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t13").innerHTML = (data.statewise[13].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -210,7 +210,7 @@ async function getData() {
 	
 	//rank14
 	
-	document.getElementById("s14").innerHTML = (data.statewise[14].state);
+	document.getElementById("s14").innerHTML = "14.&nbsp;&nbsp;"+(data.statewise[14].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t14").innerHTML = (data.statewise[14].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -225,7 +225,7 @@ async function getData() {
 	
 	//rank15
 	
-	document.getElementById("s15").innerHTML = (data.statewise[15].state);
+	document.getElementById("s15").innerHTML = "15.&nbsp;&nbsp;"+(data.statewise[15].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t15").innerHTML = (data.statewise[15].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -240,7 +240,7 @@ async function getData() {
 	
 	//rank16
 	
-	document.getElementById("s16").innerHTML = (data.statewise[16].state);
+	document.getElementById("s16").innerHTML = "16.&nbsp;&nbsp;"+(data.statewise[16].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t16").innerHTML = (data.statewise[16].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -255,7 +255,7 @@ async function getData() {
 	
 	//rank17
 	
-	document.getElementById("s17").innerHTML = (data.statewise[17].state);
+	document.getElementById("s17").innerHTML = "17.&nbsp;&nbsp;"+(data.statewise[17].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t17").innerHTML = (data.statewise[17].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -270,7 +270,7 @@ async function getData() {
 	
 	//rank18
 	
-	document.getElementById("s18").innerHTML = (data.statewise[18].state);
+	document.getElementById("s18").innerHTML = "18.&nbsp;&nbsp;"+(data.statewise[18].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t18").innerHTML = (data.statewise[18].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -285,7 +285,7 @@ async function getData() {
 	
 	//rank19
 	
-	document.getElementById("s19").innerHTML = (data.statewise[19].state);
+	document.getElementById("s19").innerHTML = "19.&nbsp;&nbsp;"+(data.statewise[19].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t19").innerHTML = (data.statewise[19].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -300,7 +300,7 @@ async function getData() {
 	
 	//rank20
 	
-	document.getElementById("s20").innerHTML = (data.statewise[20].state);
+	document.getElementById("s20").innerHTML = "20.&nbsp;&nbsp;"+(data.statewise[20].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t20").innerHTML = (data.statewise[20].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -315,7 +315,7 @@ async function getData() {
 	
 	//rank21
 	
-	document.getElementById("s21").innerHTML = (data.statewise[21].state);
+	document.getElementById("s21").innerHTML = "21.&nbsp;&nbsp;"+(data.statewise[21].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t21").innerHTML = (data.statewise[21].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -330,7 +330,7 @@ async function getData() {
 	
 	//rank22
 	
-	document.getElementById("s22").innerHTML = (data.statewise[22].state);
+	document.getElementById("s22").innerHTML = "22.&nbsp;&nbsp;"+(data.statewise[22].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t22").innerHTML = (data.statewise[22].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -345,7 +345,7 @@ async function getData() {
 	
 	//rank23
 	
-	document.getElementById("s23").innerHTML = (data.statewise[23].state);
+	document.getElementById("s23").innerHTML = "23.&nbsp;&nbsp;"+(data.statewise[23].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t23").innerHTML = (data.statewise[23].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -360,7 +360,7 @@ async function getData() {
 	
 	//rank24
 	
-	document.getElementById("s24").innerHTML = (data.statewise[24].state);
+	document.getElementById("s24").innerHTML = "24.&nbsp;&nbsp;"+(data.statewise[24].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t24").innerHTML = (data.statewise[24].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -375,7 +375,7 @@ async function getData() {
 	
 	//rank25
 	
-	document.getElementById("s25").innerHTML = (data.statewise[25].state);
+	document.getElementById("s25").innerHTML = "25.&nbsp;&nbsp;"+(data.statewise[25].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t25").innerHTML = (data.statewise[25].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -390,7 +390,7 @@ async function getData() {
 	
 	//rank26
 	
-	document.getElementById("s26").innerHTML = (data.statewise[26].state);
+	document.getElementById("s26").innerHTML = "26.&nbsp;&nbsp;"+(data.statewise[26].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t26").innerHTML = (data.statewise[26].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -405,7 +405,7 @@ async function getData() {
 	
 	//rank27
 	
-	document.getElementById("s27").innerHTML = (data.statewise[27].state);
+	document.getElementById("s27").innerHTML = "27.&nbsp;&nbsp;"+(data.statewise[27].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t27").innerHTML = (data.statewise[27].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -420,7 +420,7 @@ async function getData() {
 	
 	//rank28
 	
-	document.getElementById("s28").innerHTML = (data.statewise[28].state);
+	document.getElementById("s28").innerHTML = "28.&nbsp;&nbsp;"+(data.statewise[28].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t28").innerHTML = (data.statewise[28].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -435,7 +435,7 @@ async function getData() {
 	
 	//rank29
 	
-	document.getElementById("s29").innerHTML = (data.statewise[29].state);
+	document.getElementById("s29").innerHTML = "29.&nbsp;&nbsp;"+(data.statewise[29].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t29").innerHTML = (data.statewise[29].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -450,7 +450,7 @@ async function getData() {
 	
 	//rank30
 	
-	document.getElementById("s30").innerHTML = (data.statewise[30].state);
+	document.getElementById("s30").innerHTML = "30.&nbsp;&nbsp;"+(data.statewise[30].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t30").innerHTML = (data.statewise[30].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -465,7 +465,7 @@ async function getData() {
 	
 	//rank31
 	
-	document.getElementById("s31").innerHTML = (data.statewise[31].state);
+	document.getElementById("s31").innerHTML = "31.&nbsp;&nbsp;"+(data.statewise[31].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t31").innerHTML = (data.statewise[31].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -480,7 +480,7 @@ async function getData() {
 	
 	//rank32
 	
-	document.getElementById("s32").innerHTML = (data.statewise[32].state);
+	document.getElementById("s32").innerHTML = "32.&nbsp;&nbsp;"+(data.statewise[32].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t32").innerHTML = (data.statewise[32].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -495,7 +495,7 @@ async function getData() {
 	
 	//rank33
 	
-	document.getElementById("s33").innerHTML = (data.statewise[33].state);
+	document.getElementById("s33").innerHTML = "33.&nbsp;&nbsp;"+(data.statewise[33].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t33").innerHTML = (data.statewise[33].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -510,7 +510,7 @@ async function getData() {
 	
 	//rank34
 	
-	document.getElementById("s34").innerHTML = (data.statewise[34].state);
+	document.getElementById("s34").innerHTML = "34.&nbsp;&nbsp;"+(data.statewise[34].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t34").innerHTML = (data.statewise[34].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -525,7 +525,7 @@ async function getData() {
 	
 	//rank35
 	
-	document.getElementById("s35").innerHTML = (data.statewise[35].state);
+	document.getElementById("s35").innerHTML = "35.&nbsp;&nbsp;"+(data.statewise[35].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t35").innerHTML = (data.statewise[35].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -540,7 +540,7 @@ async function getData() {
 	
 	//rank36
 	
-	document.getElementById("s36").innerHTML = (data.statewise[36].state);
+	document.getElementById("s36").innerHTML = "36.&nbsp;&nbsp;"+(data.statewise[36].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t36").innerHTML = (data.statewise[36].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -555,7 +555,7 @@ async function getData() {
 	
 	//rank37
 	
-	document.getElementById("s37").innerHTML = (data.statewise[37].state);
+	document.getElementById("s37").innerHTML = "37.&nbsp;&nbsp;"+(data.statewise[37].state);
 	//  console.log(data.statewise[5].state);
 	document.getElementById("t37").innerHTML = (data.statewise[37].confirmed);
 	//  console.log(data.statewise[5].confirmed);
@@ -569,17 +569,6 @@ async function getData() {
 	/******************/
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
