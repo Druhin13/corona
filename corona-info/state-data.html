@@ -3,10 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="propeller" content="1fc21bc947a012e56a0a379072b38e59">
 	<title>State Live Data - Made by Druhin</title>
-	<link href="style.css" rel="stylesheet">
-	<!--	<link href="only-mobile.css" rel="stylesheet">-->
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -79,6 +76,256 @@
 		.red h3 {
 			color: #a41a18;
 		}
+
+
+		/*  from style.css*/
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.topbar {
+			position: fixed;
+			height: 7vh;
+			width: 100vw;
+			/*	background-color: #4571E2;*/
+			background-image: linear-gradient(to bottom, #063B59, #4CAEE3);
+			border-bottom-left-radius: 2.3vh;
+			border-bottom-right-radius: 2.3vh;
+			display: flex;
+			text-align: center;
+			justify-content: center;
+			z-index: 999;
+		}
+
+		.topbar h1 {
+			margin: auto;
+			text-align: center;
+			font-size: 2vh;
+			font-weight: 600;
+			font-family: 'Nunito', sans-serif;
+			color: #fff;
+		}
+
+/*
+
+		.heading {
+			margin-left: 5vw;
+		}
+
+		.heading h2 {
+			font-family: 'Nunito', sans-serif;
+			font-size: 1.5em;
+			font-weight: 600;
+			color: #000000;
+		}
+
+
+		.heading h3 {
+			font-family: 'Nunito', sans-serif;
+			font-size: 1.8em;
+			font-weight: 400;
+			color: #545454;
+		}
+*/
+		
+		.head{
+			margin-left: 5vw;
+			font-family: 'Nunito', sans-serif;
+			font-size: 44px;
+			font-weight: 600;
+			color: #000000;
+		}
+		
+		.state{
+			margin-left: 5vw;
+			font-family: 'Nunito', sans-serif;
+			font-size: 36px;
+			font-weight: 600;
+			color: #545454;
+		}
+		
+		
+
+		.all-states {
+			text-decoration: none;
+			position: absolute;
+			right: 0;
+			margin-right: 5vw;
+		}
+
+		.top-space {
+			height: 11vh;
+		}
+
+		.phn {
+			margin-top: 2vh;
+			margin-left: 5vw;
+			display: flex;
+		}
+
+		.phn img {
+			height: 4.5vh;
+			padding-right: 2vw;
+		}
+
+		.state-help {
+			margin-left: 5vw;
+			margin-top: 1.5vh;
+			height: 3vh;
+			padding-right: 2vw;
+		}
+
+		p {
+			height: 5vh;
+		}
+
+		.data {
+			display: flex;
+			margin-left: 5vw;
+			margin-top: 2vh;
+		}
+
+		.data img {
+			width: 28.6vw;
+			padding-right: 2vw;
+		}
+
+		.do {
+			display: flex;
+			margin-left: 5vw;
+			margin-top: 2vh;
+		}
+
+		.do img {
+			width: 44vw;
+			padding-right: 2vw;
+		}
+
+		.dont {
+			display: flex;
+			margin-left: 5vw;
+			margin-top: 2vh;
+		}
+
+		.dont img {
+			width: 44vw;
+			padding-right: 2vw;
+		}
+
+		h4 {
+			text-align: center;
+			justify-content: center;
+			font-family: 'Nunito', sans-serif;
+			font-size: 1.5vh;
+			font-weight: 400;
+			color: #545454;
+		}
+
+		video {
+			width: 90vw;
+			margin-left: 5vw;
+			border-radius: 1vh;
+		}
+
+		.when-tested img {
+			margin-left: 5vw;
+			width: 90vw;
+		}
+
+		.desktop {
+			display: none;
+		}
+
+
+		/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+		@media (min-width: 1281px) {
+
+			.desktop {
+				margin-top: 25vh;
+				display: block;
+				font-family: 'Nunito', sans-serif;
+				font-size: 5vh;
+				font-weight: 600;
+				justify-content: center;
+				text-align: center;
+				color: #fff;
+			}
+
+			.topbar,
+			.all {
+				display: none;
+			}
+
+			body {
+				background-color: #131313;
+			}
+		}
+
+		/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+		@media (min-width: 1025px) and (max-width: 1280px) {
+
+			.desktop {
+				margin-top: 25vh;
+				display: block;
+				font-family: 'Nunito', sans-serif;
+				font-size: 5vh;
+				font-weight: 600;
+				justify-content: center;
+				text-align: center;
+				color: #fff;
+			}
+
+			.topbar,
+			.all {
+				display: none;
+			}
+
+			body {
+				background-color: #131313;
+			}
+
+		}
+
+
+		/* 
+  			##Device = Low Resolution Tablets, Mobiles (Landscape)
+  			##Screen = B/w 481px to 767px
+			*/
+
+		@media (min-width: 481px) and (max-width: 767px) {
+
+			.desktop {
+				margin-top: 25vh;
+				display: block;
+				font-family: 'Nunito', sans-serif;
+				font-size: 5vh;
+				font-weight: 600;
+				justify-content: center;
+				text-align: center;
+				color: #fff;
+				content: "Rotate your device";
+			}
+
+			.topbar,
+			.all {
+				display: none;
+			}
+
+			body {
+				background-color: #131313;
+			}
+
+		}
 	</style>
 
 
@@ -94,16 +341,11 @@
 
 	<div class="all animated slideInLeft slow">
 
-		<div class="heading">
-			<h2>Live State Statistics</h2>
-			<br>
-		</div>
+		<h2 class="head">Live State Statistics</h2>
+		<p></p>
 
-		<br><br><br>
-
-		<div class="heading">
-			<h3 id="s1">State Name</h3>
-		</div>
+		
+		<h3 id="s1" class="state">State Name</h3>
 
 		<div class="animated fadeInLeft delay-2s data">
 			<div class="grey">
@@ -120,11 +362,9 @@
 			</div>
 		</div>
 
-		<br><br><br><br>
+		<br><br><br>
 		
-		<div class="heading">
-			<h3 id="s2">State Name</h3>
-		</div>
+		<h3 id="s2" class="state">State Name</h3>
 
 		<div class="animated fadeInLeft delay-2s data">
 			<div class="grey">
@@ -140,12 +380,10 @@
 				<h3><b>Deaths</b></h3>
 			</div>
 		</div>
+
+		<br><br><br>
 		
-		<br><br><br><br>
-		
-		<div class="heading">
-			<h3 id="s3">State Name</h3>
-		</div>
+		<h3 id="s3" class="state">State Name</h3>
 
 		<div class="animated fadeInLeft delay-2s data">
 			<div class="grey">
@@ -161,12 +399,10 @@
 				<h3><b>Deaths</b></h3>
 			</div>
 		</div>
+
+		<br><br><br>
 		
-		<br><br><br><br>
-		
-		<div class="heading">
-			<h3 id="s4">State Name</h3>
-		</div>
+		<h3 id="s4" class="state">State Name</h3>
 
 		<div class="animated fadeInLeft delay-2s data">
 			<div class="grey">
@@ -182,12 +418,10 @@
 				<h3><b>Deaths</b></h3>
 			</div>
 		</div>
+
+		<br><br><br>
 		
-		<br><br><br><br>
-		
-		<div class="heading">
-			<h3 id="s5">State Name</h3>
-		</div>
+		<h3 id="s5" class="state">State Name</h3>
 
 		<div class="animated fadeInLeft delay-2s data">
 			<div class="grey">
@@ -203,8 +437,49 @@
 				<h3><b>Deaths</b></h3>
 			</div>
 		</div>
+
+		<br><br><br>
 		
-		<br><br><br><br>
+		<h3 id="s6" class="state">State Name</h3>
+
+		<div class="animated fadeInLeft delay-2s data">
+			<div class="grey">
+				<h2 id="t6"><b>0</b></h2>
+				<h3><b>Total Cases</b></h3>
+			</div>
+			<div class="green">
+				<h2 id="r6"><b>0</b></h2>
+				<h3><b>Recovered</b></h3>
+			</div>
+			<div class="red">
+				<h2 id="d6"><b>0</b></h2>
+				<h3><b>Deaths</b></h3>
+			</div>
+		</div>
+
+		<br><br><br>
+		
+		<h3 id="s7" class="state">State Name</h3>
+
+		<div class="animated fadeInLeft delay-2s data">
+			<div class="grey">
+				<h2 id="t7"><b>0</b></h2>
+				<h3><b>Total Cases</b></h3>
+			</div>
+			<div class="green">
+				<h2 id="r7"><b>0</b></h2>
+				<h3><b>Recovered</b></h3>
+			</div>
+			<div class="red">
+				<h2 id="d7"><b>0</b></h2>
+				<h3><b>Deaths</b></h3>
+			</div>
+		</div>
+
+		<br><br><br>
+
+		
+		
 
 		<p></p>
 		<br><br>
@@ -216,7 +491,7 @@
 	<p class="top-space"></p>
 	<h4><b>Made by Druhin</b></h4>
 	<p></p>
-	
+
 
 	<script src="app.js"></script>
 	<script src="scroll-news.js"></script>
