@@ -383,6 +383,191 @@ async function getData() {
 	//	console.log(data.statewise[5].recovered);
 	document.getElementById("d25").innerHTML = (data.statewise[25].deaths);
 	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank26
+	
+	document.getElementById("s26").innerHTML = (data.statewise[26].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t26").innerHTML = (data.statewise[26].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r26").innerHTML = (data.statewise[26].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d26").innerHTML = (data.statewise[26].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank27
+	
+	document.getElementById("s27").innerHTML = (data.statewise[27].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t27").innerHTML = (data.statewise[27].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r27").innerHTML = (data.statewise[27].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d27").innerHTML = (data.statewise[27].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank28
+	
+	document.getElementById("s28").innerHTML = (data.statewise[28].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t28").innerHTML = (data.statewise[28].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r28").innerHTML = (data.statewise[28].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d28").innerHTML = (data.statewise[28].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank29
+	
+	document.getElementById("s29").innerHTML = (data.statewise[29].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t29").innerHTML = (data.statewise[29].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r29").innerHTML = (data.statewise[29].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d29").innerHTML = (data.statewise[29].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank30
+	
+	document.getElementById("s30").innerHTML = (data.statewise[30].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t30").innerHTML = (data.statewise[30].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r30").innerHTML = (data.statewise[30].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d30").innerHTML = (data.statewise[30].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank31
+	
+	document.getElementById("s31").innerHTML = (data.statewise[31].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t31").innerHTML = (data.statewise[31].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r31").innerHTML = (data.statewise[31].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d31").innerHTML = (data.statewise[31].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank32
+	
+	document.getElementById("s32").innerHTML = (data.statewise[32].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t32").innerHTML = (data.statewise[32].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r32").innerHTML = (data.statewise[32].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d32").innerHTML = (data.statewise[32].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank33
+	
+	document.getElementById("s33").innerHTML = (data.statewise[33].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t33").innerHTML = (data.statewise[33].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r33").innerHTML = (data.statewise[33].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d33").innerHTML = (data.statewise[33].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank34
+	
+	document.getElementById("s34").innerHTML = (data.statewise[34].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t34").innerHTML = (data.statewise[34].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r34").innerHTML = (data.statewise[34].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d34").innerHTML = (data.statewise[34].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank35
+	
+	document.getElementById("s35").innerHTML = (data.statewise[35].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t35").innerHTML = (data.statewise[35].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r35").innerHTML = (data.statewise[35].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d35").innerHTML = (data.statewise[35].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank36
+	
+	document.getElementById("s36").innerHTML = (data.statewise[36].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t36").innerHTML = (data.statewise[36].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r36").innerHTML = (data.statewise[36].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d36").innerHTML = (data.statewise[36].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+	
+	//rank37
+	
+	document.getElementById("s37").innerHTML = (data.statewise[37].state);
+	//  console.log(data.statewise[5].state);
+	document.getElementById("t37").innerHTML = (data.statewise[37].confirmed);
+	//  console.log(data.statewise[5].confirmed);
+	document.getElementById("r37").innerHTML = (data.statewise[37].recovered);
+	//	console.log(data.statewise[5].recovered);
+	document.getElementById("d37").innerHTML = (data.statewise[37].deaths);
+	//	console.log(data.statewise[5].deaths);
+	
+	
+	
+	/******************/
+
 }
 
 
@@ -404,7 +589,7 @@ getData(); //showing the data
 
 var interval = setInterval(function () {
 	getData();
-}, 60000);
+}, 120000);
 
 
 
