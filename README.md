@@ -1,6 +1,12 @@
 
 # Corona Info<br>
 
+
+## Snapshots
+
+![snapshots](https://user-images.githubusercontent.com/46156118/78874152-91883900-7a69-11ea-904f-42d8516e55a4.png)
+
+
 ## Contributing to Corona Info
 
 Thanks for your interest in helping Corona Info
