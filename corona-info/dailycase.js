@@ -1,6 +1,6 @@
 const api_url2 = 'https://api.covid19india.org/data.json';
 
-async function getData() {
+async function getData3() {
 	const response = await fetch(api_url2);
 	const data = await response.json();
 
@@ -122,8 +122,8 @@ async function getData() {
 
 }
 
-getData();
+getData3();
 
-var interval = setInterval(function () {
-	getData();
+var interval2 = setInterval(function () {
+	getData3();
 }, 60000);
