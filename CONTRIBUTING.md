@@ -5,7 +5,7 @@ Thanks for your interest in helping breakthru.
 
 ## Getting Started
 
-breakthru.'s [open issues are here](https://github.com/Druhin13/breakthru./issues)
+breakthru.'s [open issues are here](https://github.com/Druhin13/corona/issues)
 In time, we'll tag issues that would make a good first pull request for new contributors.
 An easy way to get started helping the project is to *create an issue*.
 You can do that on the breakthru.'s issues page by clicking on the green button at the right.
@@ -21,7 +21,7 @@ Contributions to breakthru. should be made in the form of GitHub pull requests.
 Each pull request will be reviewed and either landed in the master tree
 or given feedback for changes that would be required.
 
-Make sure you check the [open issues](https://github.com/Druhin13/breakthru./issues).
+Make sure you check the [open issues](https://github.com/Druhin13/corona/issues).
 
 
 ## Pull Request Checklist
@@ -35,15 +35,9 @@ Make sure you check the [open issues](https://github.com/Druhin13/breakthru./iss
   It helps us to review that as well.
 
 - Don't put submodule updates in your pull request unless they are to landed
-  commits.
-
-- If your patch is not getting reviewed or you need a specific person to review
-  it, you can tag '@-reply' a specific member asking for a review in the
-  pull request or comment.
-
-- Add tests relevant to the fixed bug or new feature.  
+  commits. 
 
 
 ## Licence
 
-All code in this repository is under the Apache Software Foundation License, 2.0.
+All code in this repository is licensed under the MIT License.
