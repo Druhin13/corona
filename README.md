@@ -1,6 +1,8 @@
 
 # Corona Info<br>
 
+<img src="https://img.shields.io/badge/License-MIT-green.svg">  <img src="https://img.shields.io/github/repo-size/Druhin13/corona">  
+
 
 ## Snapshots
 
