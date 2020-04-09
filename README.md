@@ -1,6 +1,6 @@
 
 # Corona Info<br><img src="https://img.shields.io/github/stars/Druhin13/corona?style=social">
-<img src="https://img.shields.io/website?down_color=lightgrey&down_message=maintenance&up_color=green&up_message=online&url=https%3A%2F%2Fcoronavirusapp.github.io">  <img src="https://img.shields.io/uptimerobot/ratio/7/m784709526-2cb60baaa86e5acb72fee78d">
+<img src="https://img.shields.io/website?down_color=lightgrey&down_message=maintenance&up_color=green&up_message=online&url=https%3A%2F%2Fcoronavirusapp.github.io">  <img src="https://img.shields.io/uptimerobot/ratio/7/m784709526-2cb60baaa86e5acb72fee78d">  <img src="https://img.shields.io/github/last-commit/Druhin13/corona">  <img src="https://img.shields.io/github/commit-activity/m/Druhin13/corona">
 
 <img src="https://img.shields.io/github/license/Druhin13/corona">  <img src="https://img.shields.io/github/repo-size/Druhin13/corona"> <img src="https://img.shields.io/github/issues-raw/Druhin13/corona">  <img src="https://img.shields.io/github/v/release/Druhin13/corona">  
 
