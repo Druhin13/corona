@@ -1,3 +1,4 @@
+<img src="![corona-info](https://user-images.githubusercontent.com/46156118/78889653-b7b9d300-7a81-11ea-8d3e-9e69227d0de4.png)">
 
 # Corona Info<br><img src="https://img.shields.io/github/stars/Druhin13/corona?style=social">
 <img src="https://img.shields.io/website?down_color=lightgrey&down_message=maintenance&up_color=green&up_message=online&url=https%3A%2F%2Fcoronavirusapp.github.io">  <img src="https://img.shields.io/uptimerobot/ratio/7/m784709526-2cb60baaa86e5acb72fee78d">  <img src="https://img.shields.io/github/last-commit/Druhin13/corona">  <img src="https://img.shields.io/github/commit-activity/m/Druhin13/corona">
