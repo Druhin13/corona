@@ -57,14 +57,14 @@ let massPopChart = new Chart(myChart, {
 
 		//add a space
 
-		labels: ['3 Apr', '4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr'],
+		labels: ['4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr', '10 Apr'],
 		datasets: [{
 			label: 'Confirmed Case',
 
 			//add daily case
 
 			data: [
-				560, 579, 605, 489, 573, 565, 809
+				579, 605, 489, 573, 565, 809, 869
 			],
 			backgroundColor: '#ACD1F2'
 		}]
@@ -155,14 +155,14 @@ let massPopChart3 = new Chart(myChart3, {
 
 		//add a space
 
-		labels: ['3 Apr', '4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr'],
+		labels: ['4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr', '10 Apr'],
 		datasets: [{
 			label: 'Death',
 
 			//add daily case
 
 			data: [
-				14, 13, 22, 16, 26, 20, 46
+				13, 22, 16, 26, 20, 46, 22
 			],
 			backgroundColor: '#F5AEA8'
 		}]
@@ -378,7 +378,7 @@ async function getData2() {
 						//add daily case
 
 						data: [
-				data3.statewise[i].confirmed, data3.statewise[i].recovered, data3.statewise[i].deaths, 
+				data3.statewise[i].confirmed, data3.statewise[i].recovered, data3.statewise[i].deaths,
 			],
 						backgroundColor: ['#ACD1F2', '#A8DAB5', '#F5AEA8']
 		}]
@@ -386,7 +386,7 @@ async function getData2() {
 				options: {
 					title: {
 						display: true,
-						text: 'Current Status of '+state,
+						text: 'Current Status of ' + state,
 						fontSize: 40
 					},
 					legend: {
@@ -415,4 +415,8 @@ getData2();
 
 var interval = setInterval(function () {
 	getData2();
-}, 120000);
+}, 300000);
+
+var interval = setInterval(function () {
+	getData3();
+}, 300000);
