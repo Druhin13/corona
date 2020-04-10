@@ -1,3 +1,49 @@
+//let myChart = document.getElementById('myChart').getContext('2d');
+//
+////Global options
+//Chart.defaults.global.defaultFontFamily = 'Nunito';
+//Chart.defaults.global.defaultFontSize = 25;
+//Chart.defaults.global.defaultFontColor = '#000';
+//
+//let massPopChart = new Chart(myChart, {
+//	type: 'bar',
+//	data: {
+//		
+//		//add a space
+//		
+//		labels: ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','' ],
+//		datasets: [{
+//			label: 'Daily Cases',
+//			
+//			//add daily case
+//			
+//			data: [
+//				1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,22,2,1,3,5,9,15,7,12,9,16,5,15,19,25,27,60,76,69,94,74,86,73,153,141,115,190,306,424,486,560,579,605,489,573,565,809
+//			],
+//			backgroundColor: '#CECECE'
+//		}]
+//	},
+//	options: {
+//		title:{
+//			display:true,
+//			text:'Daily Cases in India',
+//			fontSize:40
+//		},
+//		legend:{
+//			display:false
+//		},
+//		layout:{
+//			padding:{
+//				left:25,
+//				right:25,
+//			}
+//		}
+//	}
+//});
+
+
+
+
 let myChart = document.getElementById('myChart').getContext('2d');
 
 //Global options
@@ -6,40 +52,139 @@ Chart.defaults.global.defaultFontSize = 25;
 Chart.defaults.global.defaultFontColor = '#000';
 
 let massPopChart = new Chart(myChart, {
-	type: 'bar',
+	type: 'line',
 	data: {
-		
+
 		//add a space
-		
-		labels: ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','' ],
+
+		labels: ['3', '4', '5', '6', '7', '8', '9'],
 		datasets: [{
-			label: 'Daily Cases',
-			
+			label: 'April',
+
 			//add daily case
-			
+
 			data: [
-				1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,22,2,1,3,5,9,15,7,12,9,16,5,15,19,25,27,60,76,69,94,74,86,73,153,141,115,190,306,424,486,560,579,605,489,573,565,809
+				560, 579, 605, 489, 573, 565, 809
+			],
+			backgroundColor: '#ACD1F2'
+		}]
+	},
+	options: {
+		title: {
+			display: true,
+			text: 'Daily Cases in India (Week)',
+			fontSize: 40
+		},
+		legend: {
+			display: true
+		},
+		layout: {
+			padding: {
+				left: 25,
+				right: 25,
+			}
+		}
+	}
+});
+
+
+
+
+
+
+//*********************************************************//
+
+
+//let myChart3 = document.getElementById('myChart3').getContext('2d');
+//
+////Global options
+//Chart.defaults.global.defaultFontFamily = 'Nunito';
+//Chart.defaults.global.defaultFontSize = 25;
+//Chart.defaults.global.defaultFontColor = '#000';
+//
+//let massPopChart3 = new Chart(myChart3, {
+//	type: 'bar',
+//	data: {
+//		
+//		//add a space
+//		
+//		labels: ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','' ],
+//		datasets: [{
+//			label: 'Daily Cases',
+//			
+//			//add daily case
+//			
+//			data: [
+//				0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,3,2,1,1,5,3,5,3,16,6,7,16,14,13,22,16,26,20,46
+//			],
+//			backgroundColor: '#F5AEA8'
+//		}]
+//	},
+//	options: {
+//		title:{
+//			display:true,
+//			text:'Daily Cases in India',
+//			fontSize:40
+//		},
+//		legend:{
+//			display:false
+//		},
+//		layout:{
+//			padding:{
+//				left:25,
+//				right:25,
+//			}
+//		}
+//	}
+//});
+
+
+
+
+
+let myChart3 = document.getElementById('myChart3').getContext('2d');
+
+//Global options
+Chart.defaults.global.defaultFontFamily = 'Nunito';
+Chart.defaults.global.defaultFontSize = 25;
+Chart.defaults.global.defaultFontColor = '#000';
+
+let massPopChart3 = new Chart(myChart3, {
+	type: 'line',
+	data: {
+
+		//add a space
+
+		labels: ['3', '4', '5', '6', '7', '8', '9'],
+		datasets: [{
+			label: 'April',
+
+			//add daily case
+
+			data: [
+				14, 13, 22, 16, 26, 20, 46
 			],
 			backgroundColor: '#F5AEA8'
 		}]
 	},
 	options: {
-		title:{
-			display:true,
-			text:'Daily Cases in India',
-			fontSize:40
+		title: {
+			display: true,
+			text: 'Daily Deaths in India (Week)',
+			fontSize: 40
 		},
-		legend:{
-			display:false
+		legend: {
+			display: true
 		},
-		layout:{
-			padding:{
-				left:25,
-				right:25,
+		layout: {
+			padding: {
+				left: 25,
+				right: 25,
 			}
 		}
 	}
 });
+
 
 
 
@@ -57,34 +202,34 @@ Chart.defaults.global.defaultFontColor = '#000';
 let massPopChart2 = new Chart(myChart2, {
 	type: 'bar',
 	data: {
-		
+
 		//add a space
-		
-		labels: ['0-10','11-20','21-30','31-40','41-50','51-60','61-70','71-80','81-90','91-100'],
+
+		labels: ['0-10', '11-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-80', '81-90', '91-100'],
 		datasets: [{
 			label: 'Total Cases',
-			
+
 			//add daily case
-			
+
 			data: [
-				28,76,223,252,177,164,114,30,6,2
+				28, 76, 223, 252, 177, 164, 114, 30, 6, 2
 			],
-			backgroundColor: '#ACD1F2'
+			backgroundColor: '#FED5A9'
 		}]
 	},
 	options: {
-		title:{
-			display:true,
-			text:'Patient Age in India',
-			fontSize:40
+		title: {
+			display: true,
+			text: 'Patient Age in India',
+			fontSize: 40
 		},
-		legend:{
-			display:false
+		legend: {
+			display: true
 		},
-		layout:{
-			padding:{
-				left:25,
-				right:25,
+		layout: {
+			padding: {
+				left: 25,
+				right: 25,
 			}
 		}
 	}
@@ -93,7 +238,10 @@ let massPopChart2 = new Chart(myChart2, {
 
 
 
-/******************************************/
+
+
+
+/********************************************/
 
 
 
@@ -110,6 +258,60 @@ async function getData() {
 	document.getElementById("death").innerHTML = (data.statewise[0].deaths);
 	//	console.log(data.statewise[0].deaths);
 	//	console.log(data.statewise);
+
+
+
+
+	/******************************************/
+
+
+	let myChart4 = document.getElementById('myChart4').getContext('2d');
+
+	//Global options
+	Chart.defaults.global.defaultFontFamily = 'Nunito';
+	Chart.defaults.global.defaultFontSize = 25;
+	Chart.defaults.global.defaultFontColor = '#000';
+
+	let massPopChart4 = new Chart(myChart4, {
+		type: 'pie',
+		data: {
+
+			//add a space
+
+			labels: ['Total Cases', 'Recovered', 'Death'],
+			datasets: [{
+				//			label: 'Total Cases',
+
+				//add daily case
+
+				data: [
+				data.statewise[0].confirmed, data.statewise[0].recovered, data.statewise[0].deaths
+			],
+				backgroundColor: ['#E1E1E1', '#A8DAB5', '#F5AEA8']
+		}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Current Status of India',
+				fontSize: 40
+			},
+			legend: {
+				display: true
+			},
+			layout: {
+				padding: {
+					left: 25,
+					right: 25,
+				}
+			}
+		}
+	});
+
+
+
+
+
 }
 
 getData();
@@ -140,7 +342,7 @@ async function getData2() {
 		state = "Delhi";
 	}
 
-	document.getElementById("state_name").innerHTML = "Total in "+state; //showing the state name
+	document.getElementById("state_name").innerHTML = "Total in " + state; //showing the state name
 
 
 	for (i = 1; i <= 37; i++) { //going through all the data
@@ -158,4 +360,3 @@ getData2();
 var interval = setInterval(function () {
 	getData2();
 }, 120000);
-
