@@ -287,7 +287,7 @@ async function getData() {
 				data: [
 				data.statewise[0].confirmed, data.statewise[0].recovered, data.statewise[0].deaths
 			],
-				backgroundColor: ['#ACD1F2', '#A8DAB5', '#F5AEA8']
+				backgroundColor: ['#cecece', '#A8DAB5', '#F5AEA8']
 		}]
 		},
 		options: {
@@ -380,7 +380,7 @@ async function getData2() {
 						data: [
 				data3.statewise[i].confirmed, data3.statewise[i].recovered, data3.statewise[i].deaths,
 			],
-						backgroundColor: ['#ACD1F2', '#A8DAB5', '#F5AEA8']
+						backgroundColor: ['#cecece', '#A8DAB5', '#F5AEA8']
 		}]
 				},
 				options: {
