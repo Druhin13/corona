@@ -57,7 +57,7 @@ let massPopChart = new Chart(myChart, {
 
 		//add a space
 
-		labels: ['3', '4', '5', '6', '7', '8', '9'],
+		labels: ['3 Apr', '4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr'],
 		datasets: [{
 			label: 'April',
 
@@ -155,7 +155,7 @@ let massPopChart3 = new Chart(myChart3, {
 
 		//add a space
 
-		labels: ['3', '4', '5', '6', '7', '8', '9'],
+		labels: ['3 Apr', '4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr'],
 		datasets: [{
 			label: 'April',
 
@@ -360,3 +360,5 @@ getData2();
 var interval = setInterval(function () {
 	getData2();
 }, 120000);
+
+
