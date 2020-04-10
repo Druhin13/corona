@@ -59,7 +59,7 @@ let massPopChart = new Chart(myChart, {
 
 		labels: ['3 Apr', '4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr'],
 		datasets: [{
-			label: 'April',
+			label: 'Confirmed Case',
 
 			//add daily case
 
@@ -157,7 +157,7 @@ let massPopChart3 = new Chart(myChart3, {
 
 		labels: ['3 Apr', '4 Apr', '5 Apr', '6 Apr', '7 Apr', '8 Apr', '9 Apr'],
 		datasets: [{
-			label: 'April',
+			label: 'Death',
 
 			//add daily case
 
@@ -287,7 +287,7 @@ async function getData() {
 				data: [
 				data.statewise[0].confirmed, data.statewise[0].recovered, data.statewise[0].deaths
 			],
-				backgroundColor: ['#E1E1E1', '#A8DAB5', '#F5AEA8']
+				backgroundColor: ['#ACD1F2', '#A8DAB5', '#F5AEA8']
 		}]
 		},
 		options: {
@@ -351,8 +351,64 @@ async function getData2() {
 			document.getElementById("state_total").innerHTML = data3.statewise[i].confirmed; //total cases
 			document.getElementById("state_recovered").innerHTML = data3.statewise[i].recovered; //recovered
 			document.getElementById("state_death").innerHTML = data3.statewise[i].deaths; //deaths
+
+			console.log(data3);
+
+
+			/******************************************/
+
+
+			let myChart5 = document.getElementById('myChart5').getContext('2d');
+
+			//Global options
+			Chart.defaults.global.defaultFontFamily = 'Nunito';
+			Chart.defaults.global.defaultFontSize = 25;
+			Chart.defaults.global.defaultFontColor = '#000';
+
+			let massPopChart5 = new Chart(myChart5, {
+				type: 'pie',
+				data: {
+
+					//add a space
+
+					labels: ['Total Cases', 'Recovered', 'Deaths'],
+					datasets: [{
+						//			label: 'Total Cases',
+
+						//add daily case
+
+						data: [
+				data3.statewise[i].confirmed, data3.statewise[i].recovered, data3.statewise[i].deaths, 
+			],
+						backgroundColor: ['#ACD1F2', '#A8DAB5', '#F5AEA8']
+		}]
+				},
+				options: {
+					title: {
+						display: true,
+						text: 'Current Status of '+state,
+						fontSize: 40
+					},
+					legend: {
+						display: true
+					},
+					layout: {
+						padding: {
+							left: 25,
+							right: 25,
+						}
+					}
+				}
+			});
+
+
 		}
 	}
+
+
+
+
+
 }
 
 getData2();
@@ -360,5 +416,3 @@ getData2();
 var interval = setInterval(function () {
 	getData2();
 }, 120000);
-
-
