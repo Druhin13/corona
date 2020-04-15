@@ -302,7 +302,7 @@ async function getData() {
 		options: {
 			title: {
 				display: true,
-				text: 'Daily Cases in India (Last 10 days)',
+				text: 'Cases in India (Last 10 days)',
 				fontSize: 40
 			},
 			legend: {
@@ -356,7 +356,7 @@ async function getData() {
 		options: {
 			title: {
 				display: true,
-				text: 'Daily Deaths in India (Last 10 days)',
+				text: 'Death in India (Last 10 days)',
 				fontSize: 40
 			},
 			legend: {
@@ -413,7 +413,7 @@ async function getData() {
 		options: {
 			title: {
 				display: true,
-				text: 'Daily Recovery in India (Last 10 days)',
+				text: 'Recovery in India (Last 10 days)',
 				fontSize: 40
 			},
 			legend: {
