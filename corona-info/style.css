@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .topbar {
 	position: fixed;
 	height: 7vh;
@@ -86,6 +90,13 @@
 }
 
 .testing-centre {
+	margin-top: 1.5vh;
+	height: 3vh;
+	padding-right: 2vw;
+}
+
+.prec-risks {
+	margin-left: 5vw;
 	margin-top: 1.5vh;
 	height: 3vh;
 	padding-right: 2vw;
