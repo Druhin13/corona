@@ -375,6 +375,64 @@ async function getData() {
 
 
 
+
+
+
+	/******************************************/
+
+
+
+
+
+
+	let myChart6 = document.getElementById('myChart6').getContext('2d');
+
+	//Global options
+	Chart.defaults.global.defaultFontFamily = 'Nunito';
+	Chart.defaults.global.defaultFontSize = 25;
+	Chart.defaults.global.defaultFontColor = '#000';
+
+	let massPopChart6 = new Chart(myChart6, {
+		type: 'bar',
+		data: {
+
+			//add a space
+
+			labels: [data.cases_time_series[dc_chart - 9].date, data.cases_time_series[dc_chart - 8].date, data.cases_time_series[dc_chart - 7].date, data.cases_time_series[dc_chart - 6].date, data.cases_time_series[dc_chart - 5].date, data.cases_time_series[dc_chart - 4].date, data.cases_time_series[dc_chart - 3].date, data.cases_time_series[dc_chart - 2].date, data.cases_time_series[dc_chart - 1].date, data.cases_time_series[dc_chart].date],
+			datasets: [{
+				label: 'Recovered',
+
+				//add daily case
+
+				data: [
+				data.cases_time_series[dc_chart - 9].dailyrecovered, data.cases_time_series[dc_chart - 8].dailyrecovered, data.cases_time_series[dc_chart - 7].dailyrecovered, data.cases_time_series[dc_chart - 6].dailyrecovered, data.cases_time_series[dc_chart - 5].dailyrecovered, data.cases_time_series[dc_chart - 4].dailyrecovered, data.cases_time_series[dc_chart - 3].dailyrecovered, data.cases_time_series[dc_chart - 2].dailyrecovered, data.cases_time_series[dc_chart - 1].dailyrecovered, data.cases_time_series[dc_chart].dailyrecovered
+			],
+				backgroundColor: '#a8dab5'
+		}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: 'Daily Recovery in India (Last 10 days)',
+				fontSize: 40
+			},
+			legend: {
+				display: true
+			},
+			layout: {
+				padding: {
+					left: 25,
+					right: 25,
+				}
+			}
+		}
+	});
+
+
+
+
+
+
 	/******************************************/
 
 
