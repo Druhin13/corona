@@ -107,6 +107,15 @@ async function getData3() {
 		if (daily_deaths < 0) {
 			daily_deaths = 0;
 		}
+		if (daily_total == NaN) {
+			daily_total = 0;
+		}
+		if (daily_recovered == NaN) {
+			daily_recovered = 0;
+		}
+		if (daily_deaths == NaN) {
+			daily_deaths = 0;
+		}
 
 
 
