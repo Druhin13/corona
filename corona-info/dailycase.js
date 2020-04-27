@@ -65,15 +65,23 @@ async function getData3() {
 		document.getElementById("d_total").innerHTML = data.cases_time_series[l].dailyconfirmed;
 		document.getElementById("d_recovered").innerHTML = data.cases_time_series[l].dailyrecovered;
 		document.getElementById("d_deaths").innerHTML = data.cases_time_series[l].dailydeceased;
-		
-		
+
+
 		//if the json is ready, comment out the code below
 		//comment out the top code, and put the live value, in the down code
-		
-		
-		document.getElementById("d_total").innerHTML = 181+1 ;
-		document.getElementById("d_recovered").innerHTML = 4 ;
-		document.getElementById("d_deaths").innerHTML = 3+1 ;
+
+
+
+
+		/**************************************************/
+
+		document.getElementById("d_total").innerHTML = 191 + 1;
+		document.getElementById("d_recovered").innerHTML = 10;
+		document.getElementById("d_deaths").innerHTML = 3 + 1;
+
+		/**************************************************/
+
+
 
 
 
