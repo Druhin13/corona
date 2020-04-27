@@ -212,7 +212,7 @@ let massPopChart2 = new Chart(myChart2, {
 			//add daily case
 
 			data: [
-				90, 211, 487, 524, 371, 291, 194, 61, 10, 3
+				98, 228, 514, 537, 383, 306, 204, 61, 10, 3
 			],
 			backgroundColor: '#FED5A9'
 		}]
