@@ -71,7 +71,7 @@ async function getData3() {
 		//comment out the top code, and put the live value, in the down code
 		
 		
-		document.getElementById("d_total").innerHTML = 172+1 ;
+		document.getElementById("d_total").innerHTML = 181+1 ;
 		document.getElementById("d_recovered").innerHTML = 4 ;
 		document.getElementById("d_deaths").innerHTML = 3+1 ;
 
