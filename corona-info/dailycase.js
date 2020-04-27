@@ -75,9 +75,9 @@ async function getData3() {
 
 		/**************************************************/
 
-		document.getElementById("d_total").innerHTML = 191 + 1;
-		document.getElementById("d_recovered").innerHTML = 10;
-		document.getElementById("d_deaths").innerHTML = 3 + 1;
+//		document.getElementById("d_total").innerHTML = 191 + 1;
+//		document.getElementById("d_recovered").innerHTML = 10;
+//		document.getElementById("d_deaths").innerHTML = 3 + 1;
 
 		/**************************************************/
 
