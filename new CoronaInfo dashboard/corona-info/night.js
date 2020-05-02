@@ -1,3 +1,58 @@
+// root color scheme
+
+
+///*	background colors*/
+
+//	--bg-light: #FCF4EF;
+//	--bg-dark: #121212;
+
+
+//
+//	/*  logo colors*/
+
+//	--red: #de5c5c;
+//	--transparent: #de5c5c00;
+
+
+//
+//	/*	card colors*/
+
+//	--card-light: #fff;
+//	--card-dark: #232222;
+
+
+//
+//	/*	state card colors*/
+
+//	--state-card-light: #edeeef;
+//	--state-card-dark: #111111;
+
+
+//
+//	/*	state card heading colors*/
+
+//	--state-card-head-light: #dcdcdc;
+//	--state-card-headfont-light: #7C848B;
+
+//	--state-card-head-dark: #232222;
+//	--state-card-headfont-dark: #D1D1D1;
+
+
+//
+//	/*	state card data colors*/
+
+//	--state-card-data-light: #ffffff;
+//	--state-card-datafont-light: #7c848b;
+//
+//	--state-card-data-dark: #373636;
+//	--state-card-datafont-dark: #D1D1D1;
+
+
+
+
+
+
+
 //console.log(document.getElementsByClassName("state-name-1").length);
 //0 means true
 //1 means false
@@ -26,168 +81,57 @@ function myFunction() {
 
 		localStorage.setItem('Dark', 1);
 
-		document.body.style.backgroundColor = "var(--bg-light)";
+//		document.body.style.backgroundColor = "var(--bg-light)";
+//
+//		document.getElementById("top").style.backgroundColor = "var(--bg-light)";
+//		document.getElementById("card").style.backgroundColor = "var(--card-light)";
+//
+//		document.getElementById("state-card").style.backgroundColor = "var(--state-card-light)";
 
-		document.getElementById("top").style.backgroundColor = "var(--bg-light)";
-		document.getElementById("card").style.backgroundColor = "var(--card-light)";
 
-		document.getElementById("state-card").style.backgroundColor = "var(--state-card-light)";
-		
-		
-		
-		
-		document.getElementById("s0-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s1-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s2-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s3-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s4-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s5-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s6-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s7-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s8-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s9-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s10-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s11-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s12-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s13-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s14-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s15-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s16-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s17-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s18-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s19-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s20-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s21-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s22-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s23-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s24-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s25-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s26-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s27-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s28-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s29-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s30-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s31-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s32-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s33-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s34-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s35-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s36-name").style.color = "var(--state-card-headfont-light)";
-		
-		
-		
-		
-		
-		document.getElementById("s0-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s1-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s2-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s3-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s4-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s5-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s6-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s7-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s8-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s9-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s10-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s11-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s12-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s13-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s14-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s15-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s16-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s17-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s18-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s19-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s20-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s21-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s22-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s23-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s24-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s25-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s26-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s27-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s28-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s29-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s30-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s31-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s32-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s33-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s34-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s35-name").style.color = "var(--state-card-headfont-light)";
-		document.getElementById("s36-name").style.color = "var(--state-card-headfont-light)";
-		
-		
-		
-		
-		
-		
+
+		//changing the root values to light
+
+
+		document.documentElement.style.setProperty('--bg-light', '#FCF4EF');
+		document.documentElement.style.setProperty('--card-light', '#fff');
+		document.documentElement.style.setProperty('--state-card-light', '#edeeef');
+		document.documentElement.style.setProperty('--state-card-head-light', '#dcdcdc');
+		document.documentElement.style.setProperty('--state-card-headfont-light', '#7C848B');
+		document.documentElement.style.setProperty('--state-card-data-light', '#ffffff');
+		document.documentElement.style.setProperty('--state-card-datafont-light', '#7c848b');
+
+
+
 
 
 		document.getElementById("night").src = "assets/night-light.svg";
 		document.getElementById("notification").src = "assets/notification-light.svg";
-		
-	} 
-	
+
+	}
+
 	/*******************************/
-	
 	else {
 
 		localStorage.setItem('Dark', 0);
 
-		document.body.style.backgroundColor = "var(--bg-dark)";
+//		document.body.style.backgroundColor = "var(--bg-dark)";
+//
+//		document.getElementById("top").style.backgroundColor = "var(--bg-dark)";
+//		document.getElementById("card").style.backgroundColor = "var(--card-dark)";
 
-		document.getElementById("top").style.backgroundColor = "var(--bg-dark)";
-		document.getElementById("card").style.backgroundColor = "var(--card-dark)";
 
-
-		document.getElementById("state-card").style.backgroundColor = "var(--state-card-dark)";
-		
-		
-		
-		
-		document.getElementById("s0-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s1-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s2-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s3-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s4-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s5-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s6-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s7-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s8-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s9-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s10-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s11-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s12-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s13-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s14-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s15-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s16-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s17-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s18-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s19-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s20-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s21-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s22-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s23-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s24-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s25-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s26-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s27-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s28-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s29-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s30-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s31-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s32-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s33-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s34-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s35-name").style.color = "var(--state-card-headfont-dark)";
-		document.getElementById("s36-name").style.color = "var(--state-card-headfont-dark)";
-		
-		
-		
-		
+		document.documentElement.style.setProperty('--bg-light', '#121212');
+		document.documentElement.style.setProperty('--card-light', '#232222');
+		document.documentElement.style.setProperty('--state-card-light', '#111111');
+		document.documentElement.style.setProperty('--state-card-head-light', '#232222');
+		document.documentElement.style.setProperty('--state-card-headfont-light', '#D1D1D1');
+		document.documentElement.style.setProperty('--state-card-data-light', '#373636');
+		document.documentElement.style.setProperty('--state-card-datafont-light', '#D1D1D1');
 		
 
+
+		
 
 
 		document.getElementById("night").src = "assets/night-dark.svg";
