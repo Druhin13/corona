@@ -62,7 +62,7 @@ async function getData2() {
 			document.getElementById("state-recovered").innerHTML = data3.statewise[i].recovered; //recovered
 			document.getElementById("state-deaths").innerHTML = data3.statewise[i].deaths; //deaths
 
-			console.log(data3);
+//			console.log(data3);
 
 
 			/******************************************/

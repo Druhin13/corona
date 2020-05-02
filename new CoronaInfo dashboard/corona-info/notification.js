@@ -21,7 +21,7 @@ function notify() {
 		localStorage.setItem('notify', 1);
 
 		//bringing the card down by 10vh
-		document.getElementById("card").style.marginTop = "30vh";
+		document.getElementById("card").style.marginTop = "29vh";
 		document.getElementById("card").style.transition = "all 0.5s ease";
 	} else {
 
