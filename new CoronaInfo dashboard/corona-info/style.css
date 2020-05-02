@@ -44,10 +44,12 @@
 * {
 	margin: 0;
 	padding: 0;
+	transition: all 2.5s ease-in;
 }
 
 body {
 	background-color: var(--bg-light);
+	
 }
 
 .top {
