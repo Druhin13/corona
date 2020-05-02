@@ -83,30 +83,28 @@ body {
 	width: 100vw;
 }
 
-.news1-t,
-.news2-t {
+.news1-t {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.3vh;
 	font-weight: normal;
 	line-height: 1;
 	letter-spacing: 0.55px;
-	text-align: left;
 	color: var(--red1);
 	text-align: center;
 	margin-top: 3vh;
 }
 
-.news1-c,
-.news2-c {
+.news1-c {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.4vh;
 	font-weight: normal;
-	line-height: 1;
+	line-height: 1.4;
 	letter-spacing: 0.55px;
-	text-align: left;
 	color: var(--red2);
 	text-align: center;
-	margin-top: 1vh;
+	margin-top: 1.5vh;
+	width: 70vw;
+	margin-left: 15vw;
 }
 
 
@@ -184,7 +182,7 @@ body {
 
 
 
-.india-today{
+.india-today {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.45vh;
 	font-weight: normal;
@@ -196,7 +194,7 @@ body {
 	margin-left: 6.75vw;
 }
 
-.state-today{
+.state-today {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.45vh;
 	font-weight: normal;
@@ -246,7 +244,7 @@ body {
 	margin-left: 6.75vw;
 	border-radius: 1.5vh;
 
-/*	margin-top: 2vh;*/
+	/*	margin-top: 2vh;*/
 }
 
 .state-image {
@@ -254,7 +252,7 @@ body {
 	z-index: 1000;
 	top: 0;
 	right: 0;
-/*	margin-top: 4vh;*/
+	/*	margin-top: 4vh;*/
 	margin-right: 12.5vw;
 	height: 18.5vh;
 	background-image: var(--transparent);
