@@ -62,13 +62,42 @@
 //checking if dark mode was already selected or not
 
 if (localStorage.getItem('Dark') == 0) {
-	localStorage.setItem('Dark', 1);
-	myFunction();
+	localStorage.setItem('Dark', 0);
+
+	//changing the root values to dark
+
+	document.documentElement.style.setProperty('--bg-light', '#121212');
+	document.documentElement.style.setProperty('--card-light', '#232222');
+	document.documentElement.style.setProperty('--state-card-light', '#111111');
+	document.documentElement.style.setProperty('--state-card-head-light', '#232222');
+	document.documentElement.style.setProperty('--state-card-headfont-light', '#D1D1D1');
+	document.documentElement.style.setProperty('--state-card-data-light', '#373636');
+	document.documentElement.style.setProperty('--state-card-datafont-light', '#D1D1D1');
+
+
+
+//	document.getElementById("nighty").src = "assets/night-dark.svg";
+//	document.getElementById("notification").src = "assets/notification-dark.svg";
 }
 
 if (localStorage.getItem('Dark') == 1) {
-	localStorage.setItem('Dark', 0);
-	myFunction();
+	localStorage.setItem('Dark', 1);
+
+	//changing the root values to light
+
+
+	document.documentElement.style.setProperty('--bg-light', '#FCF4EF');
+	document.documentElement.style.setProperty('--card-light', '#fff');
+	document.documentElement.style.setProperty('--state-card-light', '#edeeef');
+	document.documentElement.style.setProperty('--state-card-head-light', '#dcdcdc');
+	document.documentElement.style.setProperty('--state-card-headfont-light', '#7C848B');
+	document.documentElement.style.setProperty('--state-card-data-light', '#ffffff');
+	document.documentElement.style.setProperty('--state-card-datafont-light', '#7c848b');
+
+
+
+//	document.getElementById("nighty").src = "assets/night-light.svg";
+//	document.getElementById("notification").src = "assets/notification-light.svg";
 }
 
 
@@ -80,15 +109,6 @@ function myFunction() {
 	if (localStorage.getItem('Dark') == 0) {
 
 		localStorage.setItem('Dark', 1);
-
-//		document.body.style.backgroundColor = "var(--bg-light)";
-//
-//		document.getElementById("top").style.backgroundColor = "var(--bg-light)";
-//		document.getElementById("card").style.backgroundColor = "var(--card-light)";
-//
-//		document.getElementById("state-card").style.backgroundColor = "var(--state-card-light)";
-
-
 
 		//changing the root values to light
 
@@ -103,23 +123,14 @@ function myFunction() {
 
 
 
+//		document.getElementById("nighty").src = "assets/night-light.svg";
+//		document.getElementById("notification").src = "assets/notification-light.svg";
 
-
-		document.getElementById("night").src = "assets/night-light.svg";
-		document.getElementById("notification").src = "assets/notification-light.svg";
-
-	}
-
-	/*******************************/
-	else {
+	} else {
 
 		localStorage.setItem('Dark', 0);
 
-//		document.body.style.backgroundColor = "var(--bg-dark)";
-//
-//		document.getElementById("top").style.backgroundColor = "var(--bg-dark)";
-//		document.getElementById("card").style.backgroundColor = "var(--card-dark)";
-
+		//changing the root values to dark
 
 		document.documentElement.style.setProperty('--bg-light', '#121212');
 		document.documentElement.style.setProperty('--card-light', '#232222');
@@ -128,14 +139,11 @@ function myFunction() {
 		document.documentElement.style.setProperty('--state-card-headfont-light', '#D1D1D1');
 		document.documentElement.style.setProperty('--state-card-data-light', '#373636');
 		document.documentElement.style.setProperty('--state-card-datafont-light', '#D1D1D1');
-		
 
 
-		
 
-
-		document.getElementById("night").src = "assets/night-dark.svg";
-		document.getElementById("notification").src = "assets/notification-dark.svg";
+//		document.getElementById("nighty").src = "assets/night-dark.svg";
+//		document.getElementById("notification").src = "assets/notification-dark.svg";
 	}
 
 	console.log(localStorage);
