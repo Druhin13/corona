@@ -21,8 +21,8 @@ function notify() {
 		localStorage.setItem('notify', 1);
 
 		//bringing the card down by 10vh
-		document.getElementById("card").style.marginTop = "20vh";
-		document.getElementById("card").style.transition = "all 0.25s ease";
+		document.getElementById("card").style.marginTop = "30vh";
+		document.getElementById("card").style.transition = "all 0.5s ease";
 	} else {
 
 		//changing the notification icon
@@ -33,7 +33,7 @@ function notify() {
 
 		//bringing the card down by 10vh
 		document.getElementById("card").style.marginTop = "9vh";
-		document.getElementById("card").style.transition = "all 0.25s ease";
+		document.getElementById("card").style.transition = "all 0.5s ease";
 
 
 	}
