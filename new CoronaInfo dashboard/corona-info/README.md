@@ -11,7 +11,7 @@
 
 ### Support
 
-_Release 3.0_ is accessible only in **West Bengal**
+_Release 3.0_ is accessible only in **West Bengal**<br>
 Support for other states will be added in the _Release 3.1_
 
 >IE 11+<br>
