@@ -45,12 +45,12 @@
 	<!--top bar-->
 
 	<div id="top" class="top">
-		<img id="nighty" class="night" src="assets/night-light.svg" onclick="myFunction()">
+		<img alt="Dark mode switch" id="nighty" class="night" src="assets/night-light.svg" onclick="myFunction()">
 		<div class="logo">
 			<h1>CORONA</h1>
 			<h2>INFO</h2>
 		</div>
-		<img id="notification" class="notification" src="assets/notification-light.svg" onclick="notify()">
+		<img alt="Notification show button" id="notification" class="notification" src="assets/notification-light.svg" onclick="notify()">
 	</div>
 
 	<div id="news" class="news">
@@ -70,7 +70,9 @@
 	<div id="card" class="card">
 		<p></p>
 
-
+		
+		<h1 id="india-today" class="india-today">TODAY - 742 CASES & 31 DEATHS</h1>
+		
 		<div class="india">
 			<div class="numbers">
 
@@ -93,7 +95,7 @@
 		</div>
 
 		<div class="india-image">
-			<img src="assets/india.svg">
+			<img alt="India map image" src="assets/india.svg">
 		</div>
 
 
@@ -103,6 +105,7 @@
 
 
 
+		<h1 id="state-today" class="state-today">TODAY - 33 CASES & 2 DEATHS</h1>
 
 		<div class="state">
 			<div class="numbers">
@@ -126,7 +129,7 @@
 		</div>
 
 		<div class="state-image">
-			<img src="assets/WestBengal.svg">
+			<img alt="Your's State map image" src="assets/WestBengal.svg">
 		</div>
 
 
@@ -610,7 +613,6 @@
 
 
 	<script src="data.js"></script>
-
 	<script src="state.js"></script>
 
 </body>

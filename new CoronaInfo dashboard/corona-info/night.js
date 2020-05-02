@@ -78,10 +78,15 @@ if (localStorage.getItem('Dark') == 0) {
 	document.documentElement.style.setProperty('--state-card-headfont-light', '#D1D1D1');
 	document.documentElement.style.setProperty('--state-card-data-light', '#373636');
 	document.documentElement.style.setProperty('--state-card-datafont-light', '#D1D1D1');
-	document.documentElement.style.setProperty('--red2', '#f6b5b5');
+	//	document.documentElement.style.setProperty('--red2', '#f6b5b5');
+	//	document.documentElement.style.setProperty('--red1', '#de5c5c');
+
 	document.documentElement.style.setProperty('--red1', '#de5c5c');
-
-
+	document.documentElement.style.setProperty('--red2', '#f6b5b5');
+	document.documentElement.style.setProperty('--red3', '#f89e9e');
+	document.documentElement.style.setProperty('--red4', '#c85151');
+	document.documentElement.style.setProperty('--violet1', '#b8b4fe');
+	document.documentElement.style.setProperty('--violet2', '#433cc9');
 
 
 
@@ -103,9 +108,15 @@ if (localStorage.getItem('Dark') == 1) {
 	document.documentElement.style.setProperty('--state-card-data-light', '#ffffff');
 	document.documentElement.style.setProperty('--state-card-datafont-light', '#7c848b');
 
+	//	document.documentElement.style.setProperty('--red1', '#f6b5b5');
+	//	document.documentElement.style.setProperty('--red2', '#de5c5c');
+
 	document.documentElement.style.setProperty('--red1', '#f6b5b5');
 	document.documentElement.style.setProperty('--red2', '#de5c5c');
-
+	document.documentElement.style.setProperty('--red3', '#c85151');
+	document.documentElement.style.setProperty('--red4', '#f89e9e');
+	document.documentElement.style.setProperty('--violet1', '#433cc9');
+	document.documentElement.style.setProperty('--violet2', '#b8b4fe');
 
 
 	//	document.getElementById("nighty").src = "assets/night-light.svg";
@@ -134,6 +145,22 @@ function myFunction() {
 		document.documentElement.style.setProperty('--state-card-datafont-light', '#7c848b');
 
 
+		//		--red1: #f6b5b5;
+		//		--red2: #de5c5c;
+		//		--red3: #c85151;
+		//		--red4: #f89e9e;
+		//		--violet1: #433cc9;
+		//		--violet2: #b8b4fe;
+
+		document.documentElement.style.setProperty('--red1', '#f6b5b5');
+		document.documentElement.style.setProperty('--red2', '#de5c5c');
+		document.documentElement.style.setProperty('--red3', '#c85151');
+		document.documentElement.style.setProperty('--red4', '#f89e9e');
+		document.documentElement.style.setProperty('--violet1', '#433cc9');
+		document.documentElement.style.setProperty('--violet2', '#b8b4fe');
+
+
+
 
 		//		document.getElementById("nighty").src = "assets/night-light.svg";
 		//		document.getElementById("notification").src = "assets/notification-light.svg";
@@ -151,6 +178,21 @@ function myFunction() {
 		document.documentElement.style.setProperty('--state-card-headfont-light', '#D1D1D1');
 		document.documentElement.style.setProperty('--state-card-data-light', '#373636');
 		document.documentElement.style.setProperty('--state-card-datafont-light', '#D1D1D1');
+
+
+		//		--red1: #f6b5b5;
+		//		--red2: #de5c5c;
+		//		--red3: #c85151;
+		//		--red4: #f89e9e;
+		//		--violet1: #433cc9;
+		//		--violet2: # b8b4fe;
+
+		document.documentElement.style.setProperty('--red1', '#de5c5c');
+		document.documentElement.style.setProperty('--red2', '#f6b5b5');
+		document.documentElement.style.setProperty('--red3', '#f89e9e');
+		document.documentElement.style.setProperty('--red4', '#c85151');
+		document.documentElement.style.setProperty('--violet1', '#b8b4fe');
+		document.documentElement.style.setProperty('--violet2', '#433cc9');
 
 
 
