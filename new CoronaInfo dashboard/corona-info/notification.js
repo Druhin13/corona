@@ -51,7 +51,7 @@ async function getData5() {
 	//	console.log(data5[data5.length-1]);
 	//	console.log(data5[data5.length-1].update);
 	console.log(data5[data5.length - 1].timestamp);
-	
+
 	console.log(Date.now());
 
 	function Unix_timestamp(t) {
@@ -59,14 +59,19 @@ async function getData5() {
 		var hr = dt.getHours();
 		var m = "0" + dt.getMinutes();
 		var s = "0" + dt.getSeconds();
-		return hr + ':' + m.substr(-2) + ':' + s.substr(-2);
+		return hr + ' : ' + m.substr(-2) + ' : ' + s.substr(-2);
 	}
 
 	console.log(Unix_timestamp(data5[data5.length - 1].timestamp));
-	
+
 	var time = Unix_timestamp(data5[data5.length - 1].timestamp);
+
+
 	
-	
+
+
+
+
 	document.getElementById("news1-t").innerHTML = time;
 
 
