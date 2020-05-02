@@ -56,7 +56,7 @@ async function getData2() {
 
 
 	for (i = 1; i <= 37; i++) { //going through all the data
-		if (data3.statewise[i].state == state) { //searching for the state name in the database
+		if (data3.statewise[i].state == "West Bengal") { //searching for the state name in the database
 
 			document.getElementById("state-total").innerHTML = data3.statewise[i].confirmed; //total cases
 			document.getElementById("state-recovered").innerHTML = data3.statewise[i].recovered; //recovered

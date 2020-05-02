@@ -171,7 +171,7 @@ body {
 	top: 0;
 	right: 0;
 	margin-top: 4vh;
-	margin-right: 13vw;
+	margin-right: 12.5vw;
 	height: 18.5vh;
 	background-image: var(--transparent);
 	margin-left: 6.75vw;
@@ -181,7 +181,7 @@ body {
 }
 
 .state-image img {
-	width: 30.5vw;
+	height: 22.5vh;
 }
 
 
