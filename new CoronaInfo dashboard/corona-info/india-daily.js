@@ -117,22 +117,22 @@ async function getData3() {
 		//error handling - if data comes in negative (can happen if some old data is updated, and some are not)
 
 		if (daily_total < 0) {
-			daily_total = 0;
+			daily_total = "NO";
 		}
 		if (daily_recovered < 0) {
-			daily_recovered = 0;
+			daily_recovered = "NO";
 		}
 		if (daily_deaths < 0) {
-			daily_deaths = 0;
+			daily_deaths = "NO";
 		}
 		if (daily_total == NaN) {
-			daily_total = 0;
+			daily_total = "NO";
 		}
 		if (daily_recovered == NaN) {
-			daily_recovered = 0;
+			daily_recovered = "NO";
 		}
 		if (daily_deaths == NaN) {
-			daily_deaths = 0;
+			daily_deaths = "NO";
 		}
 
 
