@@ -14,6 +14,11 @@
 //	--transparent: #de5c5c00;
 
 
+///*	news colors*/
+//	--red1: #f6b5b5;
+//	--red2: #de5c5c;
+
+
 //
 //	/*	card colors*/
 
@@ -73,11 +78,15 @@ if (localStorage.getItem('Dark') == 0) {
 	document.documentElement.style.setProperty('--state-card-headfont-light', '#D1D1D1');
 	document.documentElement.style.setProperty('--state-card-data-light', '#373636');
 	document.documentElement.style.setProperty('--state-card-datafont-light', '#D1D1D1');
+	document.documentElement.style.setProperty('--red2', '#f6b5b5');
+	document.documentElement.style.setProperty('--red1', '#de5c5c');
 
 
 
-//	document.getElementById("nighty").src = "assets/night-dark.svg";
-//	document.getElementById("notification").src = "assets/notification-dark.svg";
+
+
+	//	document.getElementById("nighty").src = "assets/night-dark.svg";
+	//	document.getElementById("notification").src = "assets/notification-dark.svg";
 }
 
 if (localStorage.getItem('Dark') == 1) {
@@ -94,10 +103,13 @@ if (localStorage.getItem('Dark') == 1) {
 	document.documentElement.style.setProperty('--state-card-data-light', '#ffffff');
 	document.documentElement.style.setProperty('--state-card-datafont-light', '#7c848b');
 
+	document.documentElement.style.setProperty('--red1', '#f6b5b5');
+	document.documentElement.style.setProperty('--red2', '#de5c5c');
 
 
-//	document.getElementById("nighty").src = "assets/night-light.svg";
-//	document.getElementById("notification").src = "assets/notification-light.svg";
+
+	//	document.getElementById("nighty").src = "assets/night-light.svg";
+	//	document.getElementById("notification").src = "assets/notification-light.svg";
 }
 
 
@@ -123,8 +135,8 @@ function myFunction() {
 
 
 
-//		document.getElementById("nighty").src = "assets/night-light.svg";
-//		document.getElementById("notification").src = "assets/notification-light.svg";
+		//		document.getElementById("nighty").src = "assets/night-light.svg";
+		//		document.getElementById("notification").src = "assets/notification-light.svg";
 
 	} else {
 
@@ -142,8 +154,8 @@ function myFunction() {
 
 
 
-//		document.getElementById("nighty").src = "assets/night-dark.svg";
-//		document.getElementById("notification").src = "assets/notification-dark.svg";
+		//		document.getElementById("nighty").src = "assets/night-dark.svg";
+		//		document.getElementById("notification").src = "assets/notification-dark.svg";
 	}
 
 	console.log(localStorage);

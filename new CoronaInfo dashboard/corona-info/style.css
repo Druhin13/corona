@@ -14,6 +14,10 @@
 	--card-light: #fff;
 	--card-dark: #232222;
 
+	/*	news colors*/
+	--red1: #f6b5b5;
+	--red2: #de5c5c;
+
 	/*	state card colors*/
 	--state-card-light: #edeeef;
 	--state-card-dark: #111111;
@@ -49,7 +53,7 @@
 
 body {
 	background-color: var(--bg-light);
-	
+
 }
 
 .top {
@@ -64,15 +68,43 @@ body {
 
 
 
+/*news section - notification*/
+
 .news {
-	margin-top: 10vh;
+	margin-top: 9vh;
 	background-color: var(--bg-light);
-	display: flex;
 	text-align: center;
 	justify-content: center;
 	position: fixed;
 	width: 100vw;
 }
+
+.news1-t,
+.news2-t {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: left;
+	color: var(--red1);
+	text-align: center;
+	margin-top: 3vh;
+}
+
+.news1-c,
+.news2-c {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: left;
+	color: var(--red2);
+	text-align: center;
+	margin-top: 1vh;
+}
+
 
 
 
@@ -134,11 +166,11 @@ body {
 	height: 240vh;
 	background-color: var(--card-light);
 	margin-left: 3.25vw;
-	
-/*	space at top of card*/
-	margin-top: 29vh;
-	
-	
+
+	/*	space at top of card*/
+	margin-top: 9vh;
+
+
 	box-shadow: 10px 10px 50px 0 #00000029;
 	border-radius: 2vh 2vh 0 0;
 	z-index: 100;
