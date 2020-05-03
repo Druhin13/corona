@@ -204,7 +204,7 @@ body {
 	color: var(--violet1);
 	margin-bottom: 1.5vh;
 	margin-left: 6.75vw;
-	padding-top: 3vh;
+	padding-top: 3.5vh;
 }
 
 
@@ -223,7 +223,7 @@ body {
 	z-index: 1000;
 	top: 0;
 	right: 0;
-	margin-top: 4vh;
+	margin-top: 6.5vh;
 	margin-right: 2vw;
 	height: 18.5vh;
 	background-image: var(--transparent);
@@ -252,14 +252,13 @@ body {
 	z-index: 1000;
 	top: 0;
 	right: 0;
-	/*	margin-top: 4vh;*/
 	margin-right: 12.5vw;
 	height: 18.5vh;
 	background-image: var(--transparent);
 	margin-left: 6.75vw;
 	border-radius: 1.5vh;
 
-	margin-top: 31vh;
+	margin-top: 31.5vh; /*changing for state change*/
 }
 
 .state-image img {
