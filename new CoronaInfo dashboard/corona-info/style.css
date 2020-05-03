@@ -418,7 +418,7 @@ p {
 .state-card {
 	background-color: var(--state-card-light);
 	width: 80vw;
-	height: 175vh;
+	height: 168vh;
 	margin-left: 6.75vw;
 	margin-top: 5.5vh;
 	border-radius: 1.5vh;
@@ -514,4 +514,11 @@ p {
 	color: var(--state-card-datafont-light);
 	text-align: center;
 	margin-top: 0.8vh;
+}
+
+
+.druhin {
+	width: 22vw;
+	margin-left: 35.75vw;
+	margin-top: 5vh;
 }
