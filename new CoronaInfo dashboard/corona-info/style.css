@@ -165,7 +165,7 @@ body {
 
 .card {
 	width: 93.5vw;
-	height: 247vh;
+	height: 136.5vh;
 	background-color: var(--card-light);
 	margin-left: 3.25vw;
 
@@ -258,7 +258,8 @@ body {
 	margin-left: 6.75vw;
 	border-radius: 1.5vh;
 
-	margin-top: 31.5vh; /*changing for state change*/
+	margin-top: 31.5vh;
+	/*changing for state change*/
 }
 
 .state-image img {
@@ -417,7 +418,7 @@ p {
 .state-card {
 	background-color: var(--state-card-light);
 	width: 80vw;
-	height: 168vh;
+	height: 58vh;
 	margin-left: 6.75vw;
 	margin-top: 5.5vh;
 	border-radius: 1.5vh;
@@ -515,6 +516,45 @@ p {
 	margin-top: 0.8vh;
 }
 
+/*******************************************************/
+
+.more {
+	border-radius: 0.8vh;
+	background-color: var(--state-card-head-light);
+	height: 3vh;
+	width: 45vw;
+	margin-right: 2vw;
+	margin-left: 17.5vw;
+	margin-top: 3vh;
+}
+
+.more h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: left;
+	color: var(--state-card-headfont-light);
+	text-align: center;
+	padding-top: 0.8vh;
+}
+
+
+
+
+/******************************************************/
+
+/*hiding some states (rank 11 - rank 37)*/
+
+
+.state-card .s11, .state-card .s12, .state-card .s13, .state-card .s14, .state-card .s15, .state-card .s16, .state-card .s17, .state-card .s18, .state-card .s19, .state-card .s20, .state-card .s21, .state-card .s22, .state-card .s23, .state-card .s24, .state-card .s25, .state-card .s26, .state-card .s27, .state-card .s28, .state-card .s29, .state-card .s30, .state-card .s31, .state-card .s32, .state-card .s33, .state-card .s34, .state-card .s35, .state-card .s36, .state-card .s37{
+	display: none;
+}
+
+
+
+
 
 .druhin {
 	display: flex;
@@ -547,7 +587,7 @@ a {
 	color: var(--transparent);
 }
 
-.madeby{
+.madeby {
 	margin-top: 7vh;
 	margin-bottom: 0.25vh;
 	font-family: Montserrat;
@@ -559,13 +599,13 @@ a {
 }
 
 
-.footer{
+.footer {
 	display: flex;
 	justify-content: center;
 	margin-top: 3.5vh;
 }
 
-.footer h1{
+.footer h1 {
 	padding-right: 4vw;
 	text-align: center;
 	font-family: Montserrat;

@@ -165,7 +165,7 @@ body {
 
 .card {
 	width: 93.5vw;
-	height: 240vh;
+	height: 247vh;
 	background-color: var(--card-light);
 	margin-left: 3.25vw;
 
@@ -204,7 +204,7 @@ body {
 	color: var(--violet1);
 	margin-bottom: 1.5vh;
 	margin-left: 6.75vw;
-	padding-top: 3vh;
+	padding-top: 3.5vh;
 }
 
 
@@ -223,7 +223,7 @@ body {
 	z-index: 1000;
 	top: 0;
 	right: 0;
-	margin-top: 4vh;
+	margin-top: 6.5vh;
 	margin-right: 2vw;
 	height: 18.5vh;
 	background-image: var(--transparent);
@@ -252,14 +252,14 @@ body {
 	z-index: 1000;
 	top: 0;
 	right: 0;
-	/*	margin-top: 4vh;*/
 	margin-right: 12.5vw;
 	height: 18.5vh;
 	background-image: var(--transparent);
 	margin-left: 6.75vw;
 	border-radius: 1.5vh;
 
-	margin-top: 31vh;
+	margin-top: 31.5vh;
+	/*changing for state change*/
 }
 
 .state-image img {
@@ -418,7 +418,7 @@ p {
 .state-card {
 	background-color: var(--state-card-light);
 	width: 80vw;
-	height: 175vh;
+	height: 173vh;
 	margin-left: 6.75vw;
 	margin-top: 5.5vh;
 	border-radius: 1.5vh;
@@ -514,4 +514,104 @@ p {
 	color: var(--state-card-datafont-light);
 	text-align: center;
 	margin-top: 0.8vh;
+}
+
+/*******************************************************/
+
+.more {
+	border-radius: 0.8vh;
+	background-color: var(--state-card-head-light);
+	height: 3vh;
+	width: 45vw;
+	margin-right: 2vw;
+	margin-left: 17.5vw;
+	margin-top: 3vh;
+}
+
+.more h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: left;
+	color: var(--state-card-headfont-light);
+	text-align: center;
+	padding-top: 0.8vh;
+}
+
+
+
+
+/******************************************************/
+
+/*hiding some states (rank 11 - rank 37)*/
+
+
+.state-card .s{
+	display: none;
+}
+
+
+
+
+
+.druhin {
+	display: flex;
+	width: 22vw;
+	justify-content: center;
+	margin-left: 35.75vw;
+}
+
+a {
+	text-decoration: none;
+}
+
+.druhin h1 {
+	-webkit-text-stroke: 2px var(--state-card-datafont-light);
+	font-family: Montserrat;
+	font-size: 2.3vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--state-card-datafont-light);
+}
+
+.druhin h2 {
+	-webkit-text-stroke: 2px var(--state-card-datafont-light);
+	font-family: Montserrat;
+	font-size: 2.3vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--transparent);
+}
+
+.madeby {
+	margin-top: 7vh;
+	margin-bottom: 0.25vh;
+	font-family: Montserrat;
+	font-size: 1.5vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--state-card-datafont-light);
+}
+
+
+.footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 3.5vh;
+}
+
+.footer h1 {
+	padding-right: 4vw;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.5vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--state-card-datafont-light);
 }
