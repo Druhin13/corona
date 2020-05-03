@@ -520,6 +520,7 @@ p {
 .druhin {
 	display: flex;
 	width: 22vw;
+	justify-content: center;
 	margin-left: 35.75vw;
 }
 
@@ -548,11 +549,8 @@ a {
 }
 
 .madeby{
-	text-align: center;
 	margin-top: 7vh;
 	margin-bottom: 0.25vh;
-	width: 22vw;
-	margin-left: 35.75vw;
 	font-family: Montserrat;
 	font-size: 1.5vh;
 	font-weight: bold;
