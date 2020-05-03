@@ -69,7 +69,6 @@
 if (localStorage.getItem('Dark') == 0) {
 	localStorage.setItem('Dark', 0);
 
-	//changing the root values to dark
 
 	document.documentElement.style.setProperty('--bg-light', '#121212');
 	document.documentElement.style.setProperty('--card-light', '#232222');
@@ -90,7 +89,7 @@ if (localStorage.getItem('Dark') == 0) {
 
 
 
-	//	document.getElementById("nighty").src = "assets/night-dark.svg";
+//	document.getElementById("druhin").src = "assets/Druhin%20dark.svg";
 	//	document.getElementById("notification").src = "assets/notification-dark.svg";
 }
 
@@ -119,7 +118,7 @@ if (localStorage.getItem('Dark') == 1) {
 	document.documentElement.style.setProperty('--violet2', '#b8b4fe');
 
 
-	//	document.getElementById("nighty").src = "assets/night-light.svg";
+//	document.getElementById("druhin").src = "assets/Druhin%20light.svg";
 	//	document.getElementById("notification").src = "assets/notification-light.svg";
 }
 
@@ -162,7 +161,7 @@ function myFunction() {
 
 
 
-		//		document.getElementById("nighty").src = "assets/night-light.svg";
+//		document.getElementById("druhin").src = "assets/Druhin%20light.svg";
 		//		document.getElementById("notification").src = "assets/notification-light.svg";
 
 	} else {
@@ -196,7 +195,7 @@ function myFunction() {
 
 
 
-		//		document.getElementById("nighty").src = "assets/night-dark.svg";
+//		document.getElementById("druhin").src = "assets/Druhin%20dark.svg";
 		//		document.getElementById("notification").src = "assets/notification-dark.svg";
 	}
 
