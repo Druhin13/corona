@@ -11,6 +11,8 @@ localStorage.setItem('notify', 0);
 
 
 function notify() {
+	
+	getData5();
 
 	if (localStorage.getItem('notify') == 0) {
 
@@ -81,3 +83,7 @@ async function getData5() {
 }
 
 getData5();
+
+var interval5 = setInterval(function () {
+	getData5();
+}, 60000);
