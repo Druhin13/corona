@@ -107,11 +107,14 @@ async function getData3() {
 		//		console.log(data.cases_time_series[l].totaldeceased);
 
 
-		var daily_total = (data.statewise[0].confirmed) - (data.cases_time_series[l].totalconfirmed);
+		var daily_total = data.cases_time_series[l].dailyconfirmed;
 
-		var daily_recovered = (data.statewise[0].recovered) - (data.cases_time_series[l].totalrecovered);
+		//		var daily_recovered = (data.statewise[0].recovered) - (data.cases_time_series[l].totalrecovered);
 
-		var daily_deaths = (data.statewise[0].deaths) - (data.cases_time_series[l].totaldeceased);
+		var daily_deaths = data.cases_time_series[l].dailydeceased;
+
+		var yesterday = data.cases_time_series[l].date + " - ";
+
 
 
 		//error handling - if data comes in negative (can happen if some old data is updated, and some are not)
@@ -136,7 +139,7 @@ async function getData3() {
 		}
 
 
-		document.getElementById("india-today").innerHTML = "TODAY - " + daily_total + " CASES & " + daily_deaths + " DEATHS";
+		document.getElementById("india-today").innerHTML = yesterday + daily_total + " CASES & " + daily_deaths + " DEATHS";
 
 
 

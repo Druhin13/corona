@@ -14,6 +14,9 @@ async function getData6() {
 			if (state_c == 0) {
 				state_c = "NO";
 			}
+			if (state_d == 0) {
+				state_d = "NO";
+			}
 			var state_d = data.statewise[i].deltadeaths;
 		}
 	}
