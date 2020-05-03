@@ -39,7 +39,7 @@ async function getData3() {
 	var months = ["January ", "February ", "March ", "April ", "May ", "June ", "July ", "August ", "September ", "October ", "November ", "December "];
 
 	var a = date + " " + months[month]; //storing today's date
-	console.log(a);
+	//console.log(a);
 
 
 
@@ -53,7 +53,7 @@ async function getData3() {
 
 	var l = (data.cases_time_series.length - 1);
 	var last_date = data.cases_time_series[l].date;
-	console.log(l);
+	//	console.log(l);
 	console.log(data.cases_time_series[l]);
 	console.log(last_date);
 
@@ -62,10 +62,10 @@ async function getData3() {
 
 		//now we will show the daily data, straight from the database
 
-		document.getElementById("india-today").innerHTML ="TODAY - "+data.cases_time_series[l].dailyconfirmed+" CASES & "+data.cases_time_series[l].dailydeceased+" DEATHS";
-		
-//		document.getElementById("d_recovered").innerHTML = data.cases_time_series[l].dailyrecovered;
-		
+		document.getElementById("india-today").innerHTML = "TODAY - " + data.cases_time_series[l].dailyconfirmed + " CASES & " + data.cases_time_series[l].dailydeceased + " DEATHS";
+
+		//		document.getElementById("d_recovered").innerHTML = data.cases_time_series[l].dailyrecovered;
+
 
 
 		//if the json is ready, comment out the code below
@@ -116,28 +116,28 @@ async function getData3() {
 
 		//error handling - if data comes in negative (can happen if some old data is updated, and some are not)
 
-		if (daily_total < 0) {
+		if (daily_total < 0 || daily_total == 0) {
 			daily_total = "NO";
 		}
-		if (daily_recovered < 0) {
-			daily_recovered = "NO";
-		}
-		if (daily_deaths < 0) {
+		//		if (daily_recovered < 0 || daily_recovered == 0) {
+		//			daily_recovered = "NO";
+		//		}
+		if (daily_deaths < 0 || daily_deaths == 0) {
 			daily_deaths = "NO";
 		}
 		if (daily_total == NaN) {
 			daily_total = "NO";
 		}
-		if (daily_recovered == NaN) {
-			daily_recovered = "NO";
-		}
+		//		if (daily_recovered == NaN) {
+		//			daily_recovered = "NO";
+		//		}
 		if (daily_deaths == NaN) {
 			daily_deaths = "NO";
 		}
 
 
-		document.getElementById("india-today").innerHTML ="TODAY - "+daily_total+" CASES & "+daily_deaths+" DEATHS";
-		
+		document.getElementById("india-today").innerHTML = "TODAY - " + daily_total + " CASES & " + daily_deaths + " DEATHS";
+
 
 
 	}
