@@ -165,7 +165,7 @@ body {
 
 .card {
 	width: 93.5vw;
-	height: 240vh;
+	height: 247vh;
 	background-color: var(--card-light);
 	margin-left: 3.25vw;
 
@@ -518,7 +518,63 @@ p {
 
 
 .druhin {
+	display: flex;
 	width: 22vw;
 	margin-left: 35.75vw;
-	margin-top: 5vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+.druhin h1 {
+	-webkit-text-stroke: 2px var(--state-card-datafont-light);
+	font-family: Montserrat;
+	font-size: 2.3vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--state-card-datafont-light);
+}
+
+.druhin h2 {
+	-webkit-text-stroke: 2px var(--state-card-datafont-light);
+	font-family: Montserrat;
+	font-size: 2.3vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--transparent);
+}
+
+.madeby{
+	text-align: center;
+	margin-top: 7vh;
+	margin-bottom: 0.25vh;
+	width: 22vw;
+	margin-left: 35.75vw;
+	font-family: Montserrat;
+	font-size: 1.5vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--state-card-datafont-light);
+}
+
+
+.footer{
+	display: flex;
+	justify-content: center;
+	margin-top: 3.5vh;
+}
+
+.footer h1{
+	padding-right: 4vw;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.5vh;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	color: var(--state-card-datafont-light);
 }
