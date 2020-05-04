@@ -30,6 +30,7 @@
 		window._mNHandle = window._mNHandle || {};
 		window._mNHandle.queue = window._mNHandle.queue || [];
 		medianet_versionId = "3121199";
+
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 	<script src="night.js"></script>
@@ -605,10 +606,197 @@
 
 
 		</div>
-		
+
+
+
+
 		<div id="chart" class="chart">
-			
+
+
+			<!--chart 1 - total cases - LAST 7 DAYS-->
+
+			<div class="chart1">
+				<h1 id="total-d">TOTAL CASES - LAST 7 DAYS</h1>
+
+				<div class="max">
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+				</div>
+
+				<div class="value">
+					<div id="total-d6" class="max-v"></div>
+					<div id="total-d5" class="max-v"></div>
+					<div id="total-d4" class="max-v"></div>
+					<div id="total-d3" class="max-v"></div>
+					<div id="total-d2" class="max-v"></div>
+					<div id="total-d1" class="max-v"></div>
+					<div id="total-d0" class="max-v"></div>
+				</div>
+
+				<div class="max-dates">
+					<h2 id="max_d6" class="max-d">0</h2>
+					<h2 id="max_d5" class="max-d">0</h2>
+					<h2 id="max_d4" class="max-d">0</h2>
+					<h2 id="max_d3" class="max-d">0</h2>
+					<h2 id="max_d2" class="max-d">0</h2>
+					<h2 id="max_d1" class="max-d">0</h2>
+					<h2 id="max_d0" class="max-d">0</h2>
+				</div>
+			</div>
+
+
+
+			<!--chart 2 - total deaths - LAST 7 DAYS-->
+
+			<div class="chart1">
+				<h1 id="death-d">TOTAL DEATHS - LAST 7 DAYS</h1>
+
+				<div class="max">
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+					<div class="max-ch"></div>
+				</div>
+
+				<div class="value">
+					<div id="death-d6" class="max-v"></div>
+					<div id="death-d5" class="max-v"></div>
+					<div id="death-d4" class="max-v"></div>
+					<div id="death-d3" class="max-v"></div>
+					<div id="death-d2" class="max-v"></div>
+					<div id="death-d1" class="max-v"></div>
+					<div id="death-d0" class="max-v"></div>
+				</div>
+
+				<div class="max-dates">
+					<h2 id="max_d66" class="max-d">0</h2>
+					<h2 id="max_d55" class="max-d">0</h2>
+					<h2 id="max_d44" class="max-d">0</h2>
+					<h2 id="max_d33" class="max-d">0</h2>
+					<h2 id="max_d22" class="max-d">0</h2>
+					<h2 id="max_d11" class="max-d">0</h2>
+					<h2 id="max_d00" class="max-d">0</h2>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="heading">
+				<div class="state-name-0">
+					<h1 class="state-text-1" id="s0-name">DATE</h1>
+				</div>
+				<div class="state-total-0">
+					<h1 class="state-text-1" id="s0-total">CASES</h1>
+				</div>
+				<div class="state-deaths-0">
+					<h1 class="state-text-1" id="s0-deaths">DEATHS</h1>
+				</div>
+			</div>
+
+			<br><br><br>
+
+			<!--			state data-->
+
+			<div class="s s1">
+				<div class="state-name-1">
+					<h1 id="d1-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d1-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d1-deaths">...</h1>
+				</div>
+			</div>
+
+			<div class="s s2">
+				<div class="state-name-1">
+					<h1 id="d2-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d2-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d2-deaths">...</h1>
+				</div>
+			</div>
+
+			<div class="s s3">
+				<div class="state-name-1">
+					<h1 id="d3-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d3-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d3-deaths">...</h1>
+				</div>
+			</div>
+
+			<div class="s s4">
+				<div class="state-name-1">
+					<h1 id="d4-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d4-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d4-deaths">...</h1>
+				</div>
+			</div>
+
+			<div class="s s5">
+				<div class="state-name-1">
+					<h1 id="d5-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d5-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d5-deaths">...</h1>
+				</div>
+			</div>
+
+			<div class="s s6">
+				<div class="state-name-1">
+					<h1 id="d6-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d6-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d6-deaths">...</h1>
+				</div>
+			</div>
+
+			<div class="s s7">
+				<div class="state-name-1">
+					<h1 id="d7-name">...</h1>
+				</div>
+				<div class="state-total-1">
+					<h1 id="d7-total">...</h1>
+				</div>
+				<div class="state-deaths-1">
+					<h1 id="d7-deaths">...</h1>
+				</div>
+			</div>
+
 		</div>
+
+
+
+
 
 		<a href="https://druh.in">
 			<!--		<img id="druhin" class="druhin" alt="Made by Druhin" src="assets/Druhin%20light.svg">-->
@@ -640,6 +828,7 @@
 	<script src="india-daily.js"></script>
 	<script src="state.daily.js"></script>
 	<script src="more.js"></script>
+	<script src="chart.js"></script>
 
 </body>
 

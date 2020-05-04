@@ -22,7 +22,7 @@ var n = month[today.getMonth()];
 
 var yesterday = today.getDate() - 1 + " " + n + " - ";
 
-console.log(yesterday);
+//console.log(yesterday);
 
 async function getData4() {
 	var response4 = await fetch(api_url4);
@@ -32,8 +32,8 @@ async function getData4() {
 	var data2 = await response5.json();
 
 	var last = (data2.states_daily.length) - 1;
-	console.log(data2.states_daily[last - 2].wb);
-	console.log(data2.states_daily[last].wb);
+//	console.log(data2.states_daily[last - 2].wb);
+//	console.log(data2.states_daily[last].wb);
 
 	//	console.log(data.statewise);
 	//	console.log(data.statewise.length - 1);

@@ -61,21 +61,19 @@ async function getData5() {
 	function Unix_timestamp(t) {
 		var dt = new Date(t * 1000);
 		var hr = dt.getHours();
-		
-		console.log(hr);
+
+		//		console.log(hr);
 
 		if (hr > 12) {
 			x = "PM";
 			hr = hr - 12;
-		}
-		else if (hr == 12) {
+		} else if (hr == 12) {
 			x = "PM";
 			hr = 12;
-		}
-		else if (hr < 12) {
+		} else if (hr < 12) {
 			x = "AM";
 		}
-		
+
 		if (hr == 00) {
 			x = "AM";
 			hr = 12;
@@ -92,7 +90,7 @@ async function getData5() {
 	var time = Unix_timestamp(tstamp);
 
 
-	console.log(time + " " + x);
+	//	console.log(time + " " + x);
 
 
 	document.getElementById("news1-t").innerHTML = time + " " + x;
@@ -107,4 +105,4 @@ getData5();
 
 var interval5 = setInterval(function () {
 	getData5();
-}, 60000);
+}, 30000);

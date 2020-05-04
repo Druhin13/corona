@@ -1,6 +1,3 @@
-
-
-
 const api_url = 'https://api.covid19india.org/data.json';
 const news_url = 'https://api.covid19india.org/updatelog/log.json';
 
@@ -19,7 +16,7 @@ async function getData() {
 	document.getElementById("india-deaths").innerHTML = (data.statewise[0].deaths);
 	//	console.log(data.statewise[0].deaths);
 	//	console.log(data.statewise);
-	console.log(data);
+	//	console.log(data);
 
 
 }
@@ -52,7 +49,7 @@ async function getData2() {
 		state = "Delhi";
 	}
 
-//	document.getElementById("state_name").innerHTML = "Total in " + state; //showing the state name
+	//	document.getElementById("state_name").innerHTML = "Total in " + state; //showing the state name
 
 
 	for (i = 1; i <= 37; i++) { //going through all the data
@@ -62,7 +59,7 @@ async function getData2() {
 			document.getElementById("state-recovered").innerHTML = data3.statewise[i].recovered; //recovered
 			document.getElementById("state-deaths").innerHTML = data3.statewise[i].deaths; //deaths
 
-//			console.log(data3);
+			//			console.log(data3);
 
 
 			/******************************************/
