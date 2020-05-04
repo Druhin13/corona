@@ -42,7 +42,7 @@ async function getData8() {
 
 	max_case = parseInt(max_case) + 100;
 
-	console.log(max_case);
+	//	console.log(max_case);
 
 	//16.5vh is max value
 
@@ -121,7 +121,7 @@ async function getData8() {
 
 	max_deaths = parseInt(max_deaths) + 50;
 
-	console.log(max_deaths);
+	//	console.log(max_deaths);
 
 	//16.5vh is max value
 
