@@ -79,9 +79,9 @@ async function getData2() {
 getData2();
 
 var interval = setInterval(function () {
-	getData2();
+	getData();
 }, 300000);
 
 var interval = setInterval(function () {
-	getData3();
+	getData2();
 }, 300000);

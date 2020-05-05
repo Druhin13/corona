@@ -12,7 +12,7 @@ localStorage.setItem('notify', 0);
 
 function notify() {
 
-	getData5();
+	//	getData5();
 
 	if (localStorage.getItem('notify') == 0) {
 
@@ -25,6 +25,8 @@ function notify() {
 		//bringing the card down by 10vh
 		document.getElementById("card").style.marginTop = "25.5vh";
 		document.getElementById("card").style.transition = "all 0.5s ease";
+
+
 	} else {
 
 		//changing the notification icon
@@ -86,9 +88,11 @@ async function getData5() {
 	}
 
 	//	console.log(Unix_timestamp(data5[data5.length - 1].timestamp));
-	var tstamp = (data5[data5.length - 1].timestamp);
-	var time = Unix_timestamp(tstamp);
+	//	var tstamp = ();
+	var time = Unix_timestamp(data5[data5.length - 1].timestamp);
 
+	//	console.log(data5[data5.length - 1].timestamp);
+	//	console.log(Unix_timestamp(data5[data5.length - 1].timestamp));
 
 	//	console.log(time + " " + x);
 
@@ -99,10 +103,11 @@ async function getData5() {
 	document.getElementById("news1-c").innerHTML = (data5[data5.length - 1].update).toUpperCase();
 	//	console.log(data5);
 
+
 }
 
 getData5();
 
-var interval5 = setInterval(function () {
-	getData5();
-}, 30000);
+//var interval5 = setInterval(function () {
+//	getData5();
+//}, 10000);
