@@ -6,7 +6,7 @@
 - Notifications 🔔
 - Footer added 📰📌
  & offcourse
-- Bug fixes 🤭
+- Tons of Bug fixes 🤭
 <hr>
 
 ### Support
