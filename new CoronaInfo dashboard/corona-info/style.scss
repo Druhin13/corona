@@ -967,7 +967,60 @@ a {
 
 /*buy me a coffee*/
 
-@media only screen and (min-width: 600px) {
+.donate {
+	height: 8rem;
+	width: 8rem;
+	border-radius: 50%;
+	background-color: var(--red);
+	text-align: center;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, .4);
+/*	position: absolute;*/
+	z-index: 99999;
+	right: 0;
+	bottom: 0;
+	margin-right: 5vw;
+	margin-bottom: 3vh;
+	position: fixed;
+}
+
+.donate img {
+	height: 5rem;
+	margin-top: 1.5rem;
+}
+
+.thanks {
+	height: 4vh;
+	width: auto;
+	border-radius: 1vh;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, .8);
+/*	position: absolute;*/
+	z-index: 99999;
+	right: 0;
+	bottom: 0;
+	margin-right: 20vw;
+	margin-bottom: 4vh;
+	position: fixed;
 	
+	
+	display: none;
+}
+
+.thanks h1 {
+	padding-left: 4vw;
+	padding-right: 4vw;
+	
+	transition: all 1s ease;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4vh;
+	font-weight: normal;
+	letter-spacing: px;
+	text-align: left;
+	color: #131313;
+	text-align: center;
+	margin-top: 1.2vh;
+
 }
 
