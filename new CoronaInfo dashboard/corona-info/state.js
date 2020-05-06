@@ -464,7 +464,7 @@ async function getData() {
 					document.getElementById("s"+i+"-name").innerHTML = "A & N ISLANDS";
 				}
 			
-			if(document.getElementById("s"+i+"-name").innerHTML == "DADRA AND NAGAR HAVELI")
+			if(document.getElementById("s"+i+"-name").innerHTML == "DADRA AND NAGAR HAVELI AND DAMAN AND DIU")
 				{
 					document.getElementById("s"+i+"-name").innerHTML = "D & N HAVELI";
 				}
