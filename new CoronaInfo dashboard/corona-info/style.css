@@ -988,6 +988,7 @@ a {
 	margin-top: 2rem;
 }
 
+/*
 .thanks {
 	height: 4vh;
 	width: auto;
@@ -995,18 +996,17 @@ a {
 	background-color: #fff;
 	text-align: center;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, .8);
-/*	position: absolute;*/
+
 	z-index: 99999;
 	right: 0;
 	bottom: 0;
 	margin-right: 20vw;
 	margin-bottom: 4vh;
-	position: fixed;
-	
-	
-	display: none;
-}
 
+}
+*/
+
+/*
 .thanks h1 {
 	padding-left: 4vw;
 	padding-right: 4vw;
@@ -1023,4 +1023,5 @@ a {
 	margin-top: 1.2vh;
 
 }
+*/
 
