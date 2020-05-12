@@ -6,9 +6,20 @@
 
 var api_url2 = 'https://api.covid19india.org/data.json';
 
+//var loc = 'https://ipapi.co/json'; //location api
+
+
 async function getData() {
 	const response = await fetch(api_url);
 	const data = await response.json();
+
+
+	//getting the location
+
+	//	var resloc = await fetch(loc);
+	//	var data2 = await resloc.json();
+	//	
+	//	var state_name = data2.region;
 
 
 	/******************/
@@ -21,8 +32,8 @@ async function getData() {
 	//  console.log(data.statewise[1].confirmed);
 	document.getElementById("s1-deaths").innerHTML = (data.statewise[1].deaths);
 	//	console.log(data.statewise[1].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank2
@@ -33,8 +44,8 @@ async function getData() {
 	//  console.log(data.statewise[2].confirmed);
 	document.getElementById("s2-deaths").innerHTML = (data.statewise[2].deaths);
 	//	console.log(data.statewise[2].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank3
@@ -45,8 +56,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s3-deaths").innerHTML = (data.statewise[3].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank4
@@ -57,8 +68,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s4-deaths").innerHTML = (data.statewise[4].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank5
@@ -69,8 +80,8 @@ async function getData() {
 	//  console.log(data.statewise[1].confirmed);
 	document.getElementById("s5-deaths").innerHTML = (data.statewise[5].deaths);
 	//	console.log(data.statewise[1].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank6
@@ -81,8 +92,8 @@ async function getData() {
 	//  console.log(data.statewise[2].confirmed);
 	document.getElementById("s6-deaths").innerHTML = (data.statewise[6].deaths);
 	//	console.log(data.statewise[2].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank7
@@ -93,8 +104,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s7-deaths").innerHTML = (data.statewise[7].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank8
@@ -105,8 +116,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s8-deaths").innerHTML = (data.statewise[8].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank9
@@ -117,8 +128,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s9-deaths").innerHTML = (data.statewise[9].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank10
@@ -129,8 +140,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s10-deaths").innerHTML = (data.statewise[10].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank11
@@ -141,8 +152,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s11-deaths").innerHTML = (data.statewise[11].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank12
@@ -153,8 +164,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s12-deaths").innerHTML = (data.statewise[12].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank13
@@ -165,8 +176,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s13-deaths").innerHTML = (data.statewise[13].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank14
@@ -177,8 +188,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s14-deaths").innerHTML = (data.statewise[14].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank15
@@ -189,8 +200,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s15-deaths").innerHTML = (data.statewise[15].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank16
@@ -201,8 +212,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s16-deaths").innerHTML = (data.statewise[16].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank17
@@ -213,8 +224,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s17-deaths").innerHTML = (data.statewise[17].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank18
@@ -225,8 +236,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s18-deaths").innerHTML = (data.statewise[18].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank19
@@ -237,8 +248,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s19-deaths").innerHTML = (data.statewise[19].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank20
@@ -249,8 +260,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s20-deaths").innerHTML = (data.statewise[20].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank21
@@ -261,8 +272,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s21-deaths").innerHTML = (data.statewise[21].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank22
@@ -273,8 +284,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s22-deaths").innerHTML = (data.statewise[22].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank23
@@ -285,8 +296,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s23-deaths").innerHTML = (data.statewise[23].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank24
@@ -297,8 +308,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s24-deaths").innerHTML = (data.statewise[24].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank25
@@ -309,8 +320,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s25-deaths").innerHTML = (data.statewise[25].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank26
@@ -321,8 +332,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s26-deaths").innerHTML = (data.statewise[26].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank27
@@ -334,7 +345,7 @@ async function getData() {
 	document.getElementById("s27-deaths").innerHTML = (data.statewise[27].deaths);
 	//	console.log(data.statewise[4].deaths);
 
-	
+
 	/******************/
 
 	//rank28
@@ -345,8 +356,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s28-deaths").innerHTML = (data.statewise[28].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank29
@@ -357,8 +368,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s29-deaths").innerHTML = (data.statewise[29].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank30
@@ -369,8 +380,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s30-deaths").innerHTML = (data.statewise[30].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank31
@@ -381,8 +392,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s31-deaths").innerHTML = (data.statewise[31].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank32
@@ -393,8 +404,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s32-deaths").innerHTML = (data.statewise[32].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank33
@@ -405,8 +416,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s33-deaths").innerHTML = (data.statewise[33].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank34
@@ -417,8 +428,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s34-deaths").innerHTML = (data.statewise[34].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank35
@@ -429,8 +440,8 @@ async function getData() {
 	//  console.log(data.statewise[4].confirmed);
 	document.getElementById("s35-deaths").innerHTML = (data.statewise[35].deaths);
 	//	console.log(data.statewise[4].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank36
@@ -441,8 +452,8 @@ async function getData() {
 	//  console.log(data.statewise[3].confirmed);
 	document.getElementById("s36-deaths").innerHTML = (data.statewise[36].deaths);
 	//	console.log(data.statewise[3].deaths);
-	
-	
+
+
 	/******************/
 
 	//rank37
@@ -455,22 +466,172 @@ async function getData() {
 	//	console.log(data.statewise[4].deaths);
 
 
-	
-	
-	for(i=1;i<=37;i++)
-		{
-			if(document.getElementById("s"+i+"-name").innerHTML == "ANDAMAN AND NICOBAR ISLANDS")
-				{
-					document.getElementById("s"+i+"-name").innerHTML = "A & N ISLANDS";
-				}
-			
-			if(document.getElementById("s"+i+"-name").innerHTML == "DADRA AND NAGAR HAVELI AND DAMAN AND DIU")
-				{
-					document.getElementById("s"+i+"-name").innerHTML = "D & N HAVELI";
-				}
+
+
+	for (i = 1; i <= 37; i++) {
+		if (document.getElementById("s" + i + "-name").innerHTML == "ANDAMAN AND NICOBAR ISLANDS") {
+			document.getElementById("s" + i + "-name").innerHTML = "A & N ISLANDS";
 		}
+
+		if (document.getElementById("s" + i + "-name").innerHTML == "DADRA AND NAGAR HAVELI AND DAMAN AND DIU") {
+			document.getElementById("s" + i + "-name").innerHTML = "D & N HAVELI";
+		}
+	}
+
+
+
+
+
+	//running a loop
+	//searching for every state
+	//and changing the state image
+
+
+	//	if (state_name == "MAHARASHTRA") {
+	document.getElementById("state_img").src = "assets/MAHARASHTRA.svg";
+	document.getElementById("state_img").style.height = "14vh";
+	document.getElementById("state_img").style.marginLeft = "5vw";
+	document.getElementById("state_img").style.marginRight = "-8vw";
+	document.getElementById("state_img").style.marginTop = "5vh";
+	//	}
+
+	//	else if(state_name == "GUJARAT"){
+	document.getElementById("state_img").src = "assets/Gujarat.svg";
+	document.getElementById("state_img").style.height = "14vh";
+	document.getElementById("state_img").style.marginLeft = "5vw";
+	document.getElementById("state_img").style.marginRight = "-4.5vw";
+	document.getElementById("state_img").style.marginTop = "4.5vh";
+	//	}
 	
+	//	else if(state_name == "TAMIL NADU"){
+	document.getElementById("state_img").src = "assets/Tamil_Nadu.svg";
+	document.getElementById("state_img").style.height = "20vh";
+	document.getElementById("state_img").style.marginLeft = "5vw";
+	document.getElementById("state_img").style.marginRight = "-2vw";
+	document.getElementById("state_img").style.marginTop = "1.5vh";
+	//	}
 	
+	//	else if(state_name == "DELHI"){
+	document.getElementById("state_img").src = "assets/Delhi.svg";
+	document.getElementById("state_img").style.height = "14vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "0vw";
+	document.getElementById("state_img").style.marginTop = "4.5vh";
+	//	}
+	
+	//	else if(state_name == "RAJASTHAN"){
+	document.getElementById("state_img").src = "assets/Rajasthan.svg";
+	document.getElementById("state_img").style.height = "14vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-4.5vw";
+	document.getElementById("state_img").style.marginTop = "4.5vh";
+	//	}
+	
+	//	else if(state_name == "MADHYA PRADESH"){
+	document.getElementById("state_img").src = "assets/Madhya_Pradesh.svg";
+	document.getElementById("state_img").style.height = "13vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-7.5vw";
+	document.getElementById("state_img").style.marginTop = "4.5vh";
+	//	}
+	
+	//	else if(state_name == "UTTAR PRADESH"){
+	document.getElementById("state_img").src = "assets/Uttar_Pradesh.svg";
+	document.getElementById("state_img").style.height = "17vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-7.5vw";
+	document.getElementById("state_img").style.marginTop = "3vh";
+	//	}
+	
+	//	else if(state_name == "ANDHRA PRADESH"){
+	document.getElementById("state_img").src = "assets/Andhra_Pradesh.svg";
+	document.getElementById("state_img").style.height = "15vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-9.5vw";
+	document.getElementById("state_img").style.marginTop = "4.5vh";
+	//	}
+
+	//	else if(state_name == "PUNJAB"){
+	document.getElementById("state_img").src = "assets/Punjab.svg";
+	document.getElementById("state_img").style.height = "15vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-2.5vw";
+	document.getElementById("state_img").style.marginTop = "4.25vh";
+	//	}
+	
+	//	else if(state_name == "TELENGANA"){
+	document.getElementById("state_img").src = "assets/Telengana.svg";
+	document.getElementById("state_img").style.height = "15vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-9.5vw";
+	document.getElementById("state_img").style.marginTop = "4.25vh";
+	//	}
+	
+	//	else if(state_name == "JAMMU AND KASHMIR"){
+	document.getElementById("state_img").src = "assets/Jammu_and_Kashmir.svg";
+	document.getElementById("state_img").style.height = "15vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-3.5vw";
+	document.getElementById("state_img").style.marginTop = "4.25vh";
+	//	}
+	
+	//	else if(state_name == "KARNATAKA"){
+	document.getElementById("state_img").src = "assets/Karnataka.svg";
+	document.getElementById("state_img").style.height = "20vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-2vw";
+	document.getElementById("state_img").style.marginTop = "1.5vh";
+	//	}
+	
+	//	else if(state_name == "HARYANA"){
+	document.getElementById("state_img").src = "assets/Haryana.svg";
+	document.getElementById("state_img").style.height = "16vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-1vw";
+	document.getElementById("state_img").style.marginTop = "3.5vh";
+	//	}
+	
+	//	else if(state_name == "BIHAR"){
+	document.getElementById("state_img").src = "assets/Bihar.svg";
+	document.getElementById("state_img").style.height = "13vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-8.5vw";
+	document.getElementById("state_img").style.marginTop = "5vh";
+	//	}
+	
+	//	else if(state_name == "KERALA"){
+	document.getElementById("state_img").src = "assets/Kerala.svg";
+	document.getElementById("state_img").style.height = "20vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "1vw";
+	document.getElementById("state_img").style.marginTop = "1.5vh";
+	//	}
+	
+	//	else if(state_name == "ODISHA"){
+	document.getElementById("state_img").src = "assets/Odisha.svg";
+	document.getElementById("state_img").style.height = "14vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-4vw";
+	document.getElementById("state_img").style.marginTop = "5vh";
+	//	}
+	
+	//	else if(state_name == "CHANDIGARH"){
+	document.getElementById("state_img").src = "assets/Chandigarh.svg";
+	document.getElementById("state_img").style.height = "14vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-1vw";
+	document.getElementById("state_img").style.marginTop = "4.5vh";
+	//	}
+	
+	//	else if(state_name == "JHARKHAND"){
+	document.getElementById("state_img").src = "assets/Jharkhand.svg";
+	document.getElementById("state_img").style.height = "15vh";
+	document.getElementById("state_img").style.marginLeft = "0vw";
+	document.getElementById("state_img").style.marginRight = "-8.5vw";
+	document.getElementById("state_img").style.marginTop = "4vh";
+	//	}
+
+
 }
 
 

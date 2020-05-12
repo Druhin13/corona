@@ -86,5 +86,5 @@ async function getData4() {
 getData4();
 
 var interval2 = setInterval(function () {
-	getData6();
+	getData4();
 }, 60000);
