@@ -133,7 +133,8 @@ async function getData2() {
 		}
 	
 	else if(state_name == "WEST BENGAL"){
-	console.log("state img selected")
+	console.log("state img selected");
+	document.getElementById("state_img").src = "assets/WestBengal.svg";
 		}
 	
 		else if(state_name == "ANDHRA PRADESH"){
