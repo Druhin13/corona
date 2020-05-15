@@ -485,6 +485,6 @@ async function getData() {
 getData(); //showing the data
 
 
-//var interval = setInterval(function () {
-//	getData();
-//}, 120000);
+var interval = setInterval(function () {
+	getData();
+}, 120000);
