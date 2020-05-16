@@ -165,7 +165,7 @@ body {
 
 .card {
 	width: 93.5vw;
-	height: 245vh;
+	height: 320vh;
 	background-color: var(--card-light);
 	margin-left: 3.25vw;
 
@@ -1024,4 +1024,134 @@ a {
 
 }
 */
+
+
+
+/* patient chart styling*/
+
+
+.chart2 {
+	background-color: var(--state-card-light);
+	width: 80vw;
+	height: 65vh;
+	margin-left: 6.75vw;
+	margin-top: 5.5vh;
+	border-radius: 1.5vh;
+}
+
+
+
+.chart2 .heading {
+	margin-top: 2vh;
+	display: flex;
+	padding-top: 2.2vh;
+}
+
+.chart2 .heading .state-name-0 {
+	border-radius: 0.8vh;
+	background-color: var(--state-card-head-light);
+	height: 3vh;
+	width: 35vw;
+	margin-right: 2vw;
+	margin-left: 3.5vw;
+}
+
+.chart2 .heading .state-total-0 {
+	border-radius: 0.8vh;
+	background-color: var(--state-card-head-light);
+	height: 3vh;
+	width: 17vw;
+	margin-right: 2vw;
+}
+
+.chart2 .heading .state-deaths-0 {
+	border-radius: 0.75vh;
+	background-color: var(--state-card-head-light);
+	height: 3vh;
+	width: 17vw;
+}
+
+.chart2 .heading .state-name-0 h1,
+.chart2 .heading .state-total-0 h1,
+.chart2 .heading .state-deaths-0 h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: left;
+	color: var(--state-card-headfont-light);
+	text-align: center;
+	margin-top: 0.8vh;
+}
+
+
+
+.chart2 .s {
+	display: flex;
+	padding-top: 1.25vh;
+}
+
+.chart2 .s .state-name-1 {
+	border-radius: 0.8vh;
+	background-color: var(--state-card-data-light);
+	height: 3vh;
+	width: 35vw;
+	margin-right: 2vw;
+	margin-left: 3.5vw;
+}
+
+.chart2 .s .state-total-1 {
+	border-radius: 0.8vh;
+	background-color: var(--state-card-data-light);
+	height: 3vh;
+	width: 17vw;
+	margin-right: 2vw;
+}
+
+.chart2 .s .state-deaths-1 {
+	border-radius: 0.75vh;
+	background-color: var(--state-card-data-light);
+	height: 3vh;
+	width: 17vw;
+}
+
+
+.chart2 .s .state-name-1 h1,
+.chart2 .s .state-total-1 h1,
+.chart2 .s .state-deaths-1 h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: left;
+	color: var(--state-card-datafont-light);
+	text-align: center;
+	margin-top: 0.8vh;
+}
+
+.chart2-t {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.45vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: center;
+	color: var(--red3);
+	padding-top: 3.5vh;
+}
+
+.chart2-t2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.45vh;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: 0.55px;
+	text-align: center;
+	color: var(--state-card-headfont-dark);
+	padding-top: 2.5vh;
+}
+
+
 
