@@ -3070,7 +3070,7 @@ figcaption {
 }
 
 .bg-primary-1 {
-	background-color: #392396;
+	background-color: #5751C8;
 	color: #fff;
 }
 
@@ -3083,7 +3083,7 @@ figcaption {
 }
 
 .bg-primary-4 {
-	background-color: #ffd803;
+	background-color: #DE5C5C;
 }
 
 .bg-success {
@@ -3195,7 +3195,7 @@ figcaption {
 	-ms-flex-align: center;
 	align-items: center;
 	border-radius: 6px;
-	background-color: #392396;
+	background-color: #FCF4EF;
 	-webkit-transition: box-shadow 200ms ease;
 	transition: box-shadow 200ms ease;
 	font-family: 'IBM Plex Mono', sans-serif;
@@ -3633,7 +3633,7 @@ figcaption {
 }
 
 .badge.bg-primary-4 {
-	background-color: #ffd803;
+	background-color: #DE5C5C;
 	color: #141414;
 }
 
@@ -3680,7 +3680,7 @@ figcaption {
 }
 
 .text-pill.bg-primary-4 {
-	background-color: #ffd803;
+	background-color: #DE5C5C;
 	color: #141414;
 }
 
@@ -3728,7 +3728,7 @@ figcaption {
 	-ms-flex-align: center;
 	align-items: center;
 	border-radius: 12px;
-	background-color: #392396;
+	background-color: #837DF7;
 }
 
 .icon-badge.bg-primary-2 {
@@ -3736,7 +3736,7 @@ figcaption {
 }
 
 .icon-badge.bg-primary-4 {
-	background-color: #ffd803;
+	background-color: #DE5C5C;
 }
 
 .icon-badge.bg-white {
