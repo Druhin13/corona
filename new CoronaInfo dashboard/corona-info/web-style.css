@@ -4019,7 +4019,7 @@ figcaption {
 .footer {
 	position: relative;
 	overflow: hidden;
-	padding-top: 96px;
+/*	padding-top: 10px;*/
 	padding-bottom: 48px;
 }
 
