@@ -974,7 +974,7 @@ a {
 	background-color: var(--red);
 	text-align: center;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, .4);
-/*	position: absolute;*/
+	/*	position: absolute;*/
 	z-index: 99999;
 	right: 0;
 	bottom: 0;
@@ -1155,3 +1155,19 @@ a {
 
 
 
+
+
+/*loader animation*/
+
+
+.loader {
+	height: 8vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	/* IE 9 */
+	-webkit-transform: translate(-50%, -50%);
+	/* Chrome, Safari, Opera */
+}

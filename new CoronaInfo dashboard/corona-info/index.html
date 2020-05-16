@@ -88,37 +88,40 @@
 
 
 <body id="bg">
+	
+	<img id="loader" class="loader" src="assets/loader.svg">
 
+	<div id="all">
 
-	<!--top bar-->
+		<!--top bar-->
 
-	<div id="top" class="top">
-		<img alt="Dark mode switch" id="nighty" class="night" src="assets/night-light.svg" onclick="myFunction()">
-		<div class="logo">
-			<h1>CORONA</h1>
-			<h2>INFO</h2>
+		<div id="top" class="top">
+			<img alt="Dark mode switch" id="nighty" class="night" src="assets/night-light.svg" onclick="myFunction()">
+			<div class="logo">
+				<h1>CORONA</h1>
+				<h2>INFO</h2>
+			</div>
+			<img alt="Notification show button" id="notification" class="notification" src="assets/notification-light.svg" onclick="notify()">
 		</div>
-		<img alt="Notification show button" id="notification" class="notification" src="assets/notification-light.svg" onclick="notify()">
-	</div>
 
-	<div id="news" class="news">
-		<div id="news1" class="news1">
-			<h1 id="news1-t" class="news1-t">... MINS AGO</h1>
-			<h1 id="news1-c" class="news1-c">.... RECOVERIES IN .............</h1>
+		<div id="news" class="news">
+			<div id="news1" class="news1">
+				<h1 id="news1-t" class="news1-t">... MINS AGO</h1>
+				<h1 id="news1-c" class="news1-c">.... RECOVERIES IN .............</h1>
+			</div>
 		</div>
-	</div>
 
 
 
-	<!--donate me	-->
-	<!--	<a href="https://www.buymeacoffee.com/Druhin" onclick="trans()">-->
-	<div id="donate" class="donate" onclick="trans()">
-		<img src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg">
-	</div>
-	<!--	</a>-->
+		<!--donate me	-->
+		<!--	<a href="https://www.buymeacoffee.com/Druhin" onclick="trans()">-->
+		<div id="donate" class="donate" onclick="trans()">
+			<img src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg">
+		</div>
+		<!--	</a>-->
 
 
-	<!--
+		<!--
 
 		<div id="thanks" class="hide thanks" onclick="hide()">
 			<h1>Thanks for using CoronaInfo</h1>
@@ -128,926 +131,926 @@
 
 
 
-	<!--main card-->
+		<!--main card-->
 
-	<div id="card" class="card" onclick="hide()">
-		<p></p>
-
-
-		<h1 id="india-today" class="india-today">DAY - .... CASES & .... DEATHS</h1>
-
-		<div class="india">
-			<div class="numbers">
-
-				<h3>Total Cases</h3>
-				<h4 id="india-total" class="india-total">...</h4>
-
-				<div class="num-flex">
-					<div>
-						<h5>Total Deaths</h5>
-						<h4 id="india-deaths" class="india-deaths">...</h4>
-					</div>
-					<div>
-						<h5>Recovered</h5>
-						<h4 id="india-recovered" class="india-recovered">...</h4>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-
-		<div class="india-image">
-			<img alt="India map image" src="assets/india.svg">
-		</div>
+		<div id="card" class="card" onclick="hide()">
+			<p></p>
 
 
+			<h1 id="india-today" class="india-today">DAY - .... CASES & .... DEATHS</h1>
 
+			<div class="india">
+				<div class="numbers">
 
-		<!--	space-->
+					<h3>Total Cases</h3>
+					<h4 id="india-total" class="india-total">...</h4>
 
+					<div class="num-flex">
+						<div>
+							<h5>Total Deaths</h5>
+							<h4 id="india-deaths" class="india-deaths">...</h4>
+						</div>
+						<div>
+							<h5>Recovered</h5>
+							<h4 id="india-recovered" class="india-recovered">...</h4>
+						</div>
 
-
-		<h1 id="state-today" class="state-today">DAY - .... CASES & .... DEATHS</h1>
-
-		<div class="state">
-			<div class="numbers">
-
-				<h3>Total Cases</h3>
-				<h4 id="state-total" class="state-total">...</h4>
-
-				<div class="num-flex">
-					<div>
-						<h5>Total Deaths</h5>
-						<h4 id="state-deaths" class="state-deaths">...</h4>
-					</div>
-					<div>
-						<h5>Recovered</h5>
-						<h4 id="state-recovered" class="state-recovered">...</h4>
 					</div>
 
 				</div>
-
-			</div>
-		</div>
-
-		<div class="state-image">
-			<img id="state_img" alt="Your's State map image" src="">
-		</div>
-
-
-
-		<!--		space-->
-
-
-
-		<div id="state-card" class="state-card">
-
-			<!--			heading-->
-
-			<div class="heading">
-				<div class="state-name-0">
-					<h1 class="state-text-1" id="s0-name">STATE NAME</h1>
-				</div>
-				<div class="state-total-0">
-					<h1 class="state-text-1" id="s0-total">CASES</h1>
-				</div>
-				<div class="state-deaths-0" onclick="deathsort()">
-					<h1 class="state-text-1" id="s0-deaths">DEATHS</h1>
-				</div>
 			</div>
 
-
-			<br><br><br>
-
-			<!--			state data-->
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1 class="state-text-1" id="s1-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 class="state-text-1" id="s1-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 class="state-text-1" id="s1-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s2">
-				<div class="state-name-1">
-					<h1 class="state-text-1" id="s2-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 class="state-text-1" id="s2-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 class="state-text-1" id="s2-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s3">
-				<div class="state-name-1">
-					<h1 id="s3-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s3-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s3-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s4">
-				<div class="state-name-1">
-					<h1 id="s4-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s4-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s4-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s5">
-				<div class="state-name-1">
-					<h1 id="s5-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s5-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s5-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s6">
-				<div class="state-name-1">
-					<h1 id="s6-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s6-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s6-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s7">
-				<div class="state-name-1">
-					<h1 id="s7-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s7-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s7-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s8">
-				<div class="state-name-1">
-					<h1 id="s8-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s8-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s8-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s9">
-				<div class="state-name-1">
-					<h1 id="s9-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s9-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s9-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s10">
-				<div class="state-name-1">
-					<h1 id="s10-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s10-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s10-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s11" id="s11">
-				<div class="state-name-1">
-					<h1 id="s11-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s11-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s11-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s12" id="s12">
-				<div class="state-name-1">
-					<h1 id="s12-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s12-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s12-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s13" id="s13">
-				<div class="state-name-1">
-					<h1 id="s13-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s13-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s13-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s14" id="s14">
-				<div class="state-name-1">
-					<h1 id="s14-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s14-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s14-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s15" id="s15">
-				<div class="state-name-1">
-					<h1 id="s15-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s15-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s15-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s16" id="s16">
-				<div class="state-name-1">
-					<h1 id="s16-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s16-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s16-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s17" id="s17">
-				<div class="state-name-1">
-					<h1 id="s17-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s17-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s17-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s18" id="s18">
-				<div class="state-name-1">
-					<h1 id="s18-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s18-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s18-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s19" id="s19">
-				<div class="state-name-1">
-					<h1 id="s19-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s19-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s19-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s20" id="s20">
-				<div class="state-name-1">
-					<h1 id="s20-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s20-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s20-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s21" id="s21">
-				<div class="state-name-1">
-					<h1 id="s21-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s21-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s21-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s22" id="s22">
-				<div class="state-name-1">
-					<h1 id="s22-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s22-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s22-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s23" id="s23">
-				<div class="state-name-1">
-					<h1 id="s23-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s23-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s23-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s24" id="s24">
-				<div class="state-name-1">
-					<h1 id="s24-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s24-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s24-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s25" id="s25">
-				<div class="state-name-1">
-					<h1 id="s25-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s25-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s25-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s26" id="s26">
-				<div class="state-name-1">
-					<h1 id="s26-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s26-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s26-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s27" id="s27">
-				<div class="state-name-1">
-					<h1 id="s27-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s27-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s27-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s28" id="s28">
-				<div class="state-name-1">
-					<h1 id="s28-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s28-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s28-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s29" id="s29">
-				<div class="state-name-1">
-					<h1 id="s29-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s29-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s29-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s30" id="s30">
-				<div class="state-name-1">
-					<h1 id="s30-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s30-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s30-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s31" id="s31">
-				<div class="state-name-1">
-					<h1 id="s31-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s31-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s31-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s32" id="s32">
-				<div class="state-name-1">
-					<h1 id="s32-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s32-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s32-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s33" id="s33">
-				<div class="state-name-1">
-					<h1 id="s33-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s33-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s33-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s34" id="s34">
-				<div class="state-name-1">
-					<h1 id="s34-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s34-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s34-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s35" id="s35">
-				<div class="state-name-1">
-					<h1 id="s35-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s35-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s35-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s36" id="s36">
-				<div class="state-name-1">
-					<h1 id="s36-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s36-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s36-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s37" id="s37">
-				<div class="state-name-1">
-					<h1 id="s37-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="s37-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="s37-deaths">...</h1>
-				</div>
-			</div>
-
-			<div id="more" class="more" onclick="more()">
-				<h1 id="more-less">SHOW MORE</h1>
-			</div>
-
-
-		</div>
-
-
-
-
-		<div id="chart" class="chart">
-
-
-			<!--chart 1 - total cases - LAST 7 DAYS-->
-
-			<div class="chart1">
-				<h1 id="total-d">TOTAL CASES - LAST 7 DAYS</h1>
-
-				<div class="max">
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-				</div>
-
-				<div class="value">
-					<div id="total-d6" class="max-v"></div>
-					<div id="total-d5" class="max-v"></div>
-					<div id="total-d4" class="max-v"></div>
-					<div id="total-d3" class="max-v"></div>
-					<div id="total-d2" class="max-v"></div>
-					<div id="total-d1" class="max-v"></div>
-					<div id="total-d0" class="max-v"></div>
-				</div>
-
-				<div class="max-dates">
-					<h2 id="max_d6" class="max-d">0</h2>
-					<h2 id="max_d5" class="max-d">0</h2>
-					<h2 id="max_d4" class="max-d">0</h2>
-					<h2 id="max_d3" class="max-d">0</h2>
-					<h2 id="max_d2" class="max-d">0</h2>
-					<h2 id="max_d1" class="max-d">0</h2>
-					<h2 id="max_d0" class="max-d">0</h2>
-				</div>
-			</div>
-
-
-
-			<!--chart 2 - total deaths - LAST 7 DAYS-->
-
-			<div class="chart1">
-				<h1 id="death-d">TOTAL DEATHS - LAST 7 DAYS</h1>
-
-				<div class="max">
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-					<div class="max-ch"></div>
-				</div>
-
-				<div class="value">
-					<div id="death-d6" class="max-v"></div>
-					<div id="death-d5" class="max-v"></div>
-					<div id="death-d4" class="max-v"></div>
-					<div id="death-d3" class="max-v"></div>
-					<div id="death-d2" class="max-v"></div>
-					<div id="death-d1" class="max-v"></div>
-					<div id="death-d0" class="max-v"></div>
-				</div>
-
-				<div class="max-dates">
-					<h2 id="max_d66" class="max-d">0</h2>
-					<h2 id="max_d55" class="max-d">0</h2>
-					<h2 id="max_d44" class="max-d">0</h2>
-					<h2 id="max_d33" class="max-d">0</h2>
-					<h2 id="max_d22" class="max-d">0</h2>
-					<h2 id="max_d11" class="max-d">0</h2>
-					<h2 id="max_d00" class="max-d">0</h2>
-				</div>
+			<div class="india-image">
+				<img alt="India map image" src="assets/india.svg">
 			</div>
 
 
 
 
+			<!--	space-->
 
 
-			<div class="heading">
-				<div class="state-name-0">
-					<h1 class="state-text-1" id="s0-name">DATE</h1>
-				</div>
-				<div class="state-total-0">
-					<h1 class="state-text-1" id="s0-total">CASES</h1>
-				</div>
-				<div class="state-deaths-0">
-					<h1 class="state-text-1" id="s0-deaths">DEATHS</h1>
+
+			<h1 id="state-today" class="state-today">DAY - .... CASES & .... DEATHS</h1>
+
+			<div class="state">
+				<div class="numbers">
+
+					<h3>Total Cases</h3>
+					<h4 id="state-total" class="state-total">...</h4>
+
+					<div class="num-flex">
+						<div>
+							<h5>Total Deaths</h5>
+							<h4 id="state-deaths" class="state-deaths">...</h4>
+						</div>
+						<div>
+							<h5>Recovered</h5>
+							<h4 id="state-recovered" class="state-recovered">...</h4>
+						</div>
+
+					</div>
+
 				</div>
 			</div>
 
-			<br><br><br>
-
-			<!--			state data-->
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1 id="d1-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d1-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d1-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s2">
-				<div class="state-name-1">
-					<h1 id="d2-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d2-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d2-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s3">
-				<div class="state-name-1">
-					<h1 id="d3-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d3-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d3-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s4">
-				<div class="state-name-1">
-					<h1 id="d4-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d4-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d4-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s5">
-				<div class="state-name-1">
-					<h1 id="d5-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d5-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d5-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s6">
-				<div class="state-name-1">
-					<h1 id="d6-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d6-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d6-deaths">...</h1>
-				</div>
-			</div>
-
-			<div class="s s7">
-				<div class="state-name-1">
-					<h1 id="d7-name">...</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="d7-total">...</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="d7-deaths">...</h1>
-				</div>
-			</div>
-
-		</div>
-
-
-		<!--		patient's age chart -->
-
-		<div id="chart" class="chart2">
-
-			<h1 id="total-d" class="chart2-t">TOTAL CASES BY PATIENT'S AGE</h1>
-
-
-			<div class="heading">
-				<div class="state-name-0">
-					<h1 class="state-text-1" id="s0-name">AGE (YEARS)</h1>
-				</div>
-				<div class="state-total-0">
-					<h1 class="state-text-1" id="s0-total">TOTAL</h1>
-				</div>
-				<div class="state-deaths-0">
-					<h1 class="state-text-1" id="s0-deaths">%</h1>
-				</div>
-			</div>
-
-			<br><br><br>
-
-			<!--			state data-->
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>0 - 10</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c1">98</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p1">4.18</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>11 - 20</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c2">228</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p2">9.72</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>21 - 30</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c3">514</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p3">21.92</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>31 - 40</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c4">537</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p4">22.9</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>41 - 50</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c5">383</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p5">16.33</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>51 - 60</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c1">306</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p1">13.05</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>61 - 70</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c1">204</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p1">8.7</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>71 - 80</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c1">61</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p1">2.6</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>81 - 90</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c1">10</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p1">0.42</h1>
-				</div>
-			</div>
-
-			<div class="s s1">
-				<div class="state-name-1">
-					<h1>91 - 100+</h1>
-				</div>
-				<div class="state-total-1">
-					<h1 id="c1">3</h1>
-				</div>
-				<div class="state-deaths-1">
-					<h1 id="p1">0.12</h1>
-				</div>
+			<div class="state-image">
+				<img id="state_img" alt="Your's State map image" src="">
 			</div>
 
 
-			<h1 class="chart2-t2">SAMPLE SIZE : 2,344 PATIENTS</h1>
+
+			<!--		space-->
 
 
 
+			<div id="state-card" class="state-card">
 
-		</div>
+				<!--			heading-->
+
+				<div class="heading">
+					<div class="state-name-0">
+						<h1 class="state-text-1" id="s0-name">STATE NAME</h1>
+					</div>
+					<div class="state-total-0">
+						<h1 class="state-text-1" id="s0-total">CASES</h1>
+					</div>
+					<div class="state-deaths-0" onclick="deathsort()">
+						<h1 class="state-text-1" id="s0-deaths">DEATHS</h1>
+					</div>
+				</div>
 
 
+				<br><br><br>
 
-		<a href="https://druh.in">
-			<!--		<img id="druhin" class="druhin" alt="Made by Druhin" src="assets/Druhin%20light.svg">-->
-			<h1 class="madeby">Made by</h1>
-			<div id="druhin" class="druhin">
-				<h1>DRUH</h1>
-				<h2>IN</h2>
+				<!--			state data-->
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1 class="state-text-1" id="s1-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 class="state-text-1" id="s1-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 class="state-text-1" id="s1-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s2">
+					<div class="state-name-1">
+						<h1 class="state-text-1" id="s2-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 class="state-text-1" id="s2-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 class="state-text-1" id="s2-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s3">
+					<div class="state-name-1">
+						<h1 id="s3-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s3-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s3-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s4">
+					<div class="state-name-1">
+						<h1 id="s4-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s4-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s4-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s5">
+					<div class="state-name-1">
+						<h1 id="s5-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s5-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s5-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s6">
+					<div class="state-name-1">
+						<h1 id="s6-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s6-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s6-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s7">
+					<div class="state-name-1">
+						<h1 id="s7-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s7-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s7-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s8">
+					<div class="state-name-1">
+						<h1 id="s8-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s8-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s8-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s9">
+					<div class="state-name-1">
+						<h1 id="s9-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s9-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s9-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s10">
+					<div class="state-name-1">
+						<h1 id="s10-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s10-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s10-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s11" id="s11">
+					<div class="state-name-1">
+						<h1 id="s11-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s11-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s11-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s12" id="s12">
+					<div class="state-name-1">
+						<h1 id="s12-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s12-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s12-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s13" id="s13">
+					<div class="state-name-1">
+						<h1 id="s13-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s13-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s13-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s14" id="s14">
+					<div class="state-name-1">
+						<h1 id="s14-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s14-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s14-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s15" id="s15">
+					<div class="state-name-1">
+						<h1 id="s15-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s15-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s15-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s16" id="s16">
+					<div class="state-name-1">
+						<h1 id="s16-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s16-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s16-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s17" id="s17">
+					<div class="state-name-1">
+						<h1 id="s17-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s17-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s17-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s18" id="s18">
+					<div class="state-name-1">
+						<h1 id="s18-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s18-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s18-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s19" id="s19">
+					<div class="state-name-1">
+						<h1 id="s19-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s19-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s19-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s20" id="s20">
+					<div class="state-name-1">
+						<h1 id="s20-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s20-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s20-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s21" id="s21">
+					<div class="state-name-1">
+						<h1 id="s21-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s21-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s21-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s22" id="s22">
+					<div class="state-name-1">
+						<h1 id="s22-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s22-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s22-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s23" id="s23">
+					<div class="state-name-1">
+						<h1 id="s23-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s23-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s23-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s24" id="s24">
+					<div class="state-name-1">
+						<h1 id="s24-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s24-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s24-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s25" id="s25">
+					<div class="state-name-1">
+						<h1 id="s25-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s25-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s25-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s26" id="s26">
+					<div class="state-name-1">
+						<h1 id="s26-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s26-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s26-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s27" id="s27">
+					<div class="state-name-1">
+						<h1 id="s27-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s27-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s27-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s28" id="s28">
+					<div class="state-name-1">
+						<h1 id="s28-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s28-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s28-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s29" id="s29">
+					<div class="state-name-1">
+						<h1 id="s29-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s29-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s29-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s30" id="s30">
+					<div class="state-name-1">
+						<h1 id="s30-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s30-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s30-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s31" id="s31">
+					<div class="state-name-1">
+						<h1 id="s31-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s31-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s31-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s32" id="s32">
+					<div class="state-name-1">
+						<h1 id="s32-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s32-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s32-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s33" id="s33">
+					<div class="state-name-1">
+						<h1 id="s33-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s33-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s33-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s34" id="s34">
+					<div class="state-name-1">
+						<h1 id="s34-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s34-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s34-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s35" id="s35">
+					<div class="state-name-1">
+						<h1 id="s35-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s35-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s35-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s36" id="s36">
+					<div class="state-name-1">
+						<h1 id="s36-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s36-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s36-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s37" id="s37">
+					<div class="state-name-1">
+						<h1 id="s37-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="s37-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="s37-deaths">...</h1>
+					</div>
+				</div>
+
+				<div id="more" class="more" onclick="more()">
+					<h1 id="more-less">SHOW MORE</h1>
+				</div>
+
+
 			</div>
-		</a>
 
 
-		<div class="footer">
 
-			<a href="https://github.com/CoronaVirusApp/CoronaVirusApp.github.io/blob/master/new%20CoronaInfo%20dashboard/corona-info/FAQ.md#faq-">
-				<h1><u>FAQ</u></h1>
+
+			<div id="chart" class="chart">
+
+
+				<!--chart 1 - total cases - LAST 7 DAYS-->
+
+				<div class="chart1">
+					<h1 id="total-d">TOTAL CASES - LAST 7 DAYS</h1>
+
+					<div class="max">
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+					</div>
+
+					<div class="value">
+						<div id="total-d6" class="max-v"></div>
+						<div id="total-d5" class="max-v"></div>
+						<div id="total-d4" class="max-v"></div>
+						<div id="total-d3" class="max-v"></div>
+						<div id="total-d2" class="max-v"></div>
+						<div id="total-d1" class="max-v"></div>
+						<div id="total-d0" class="max-v"></div>
+					</div>
+
+					<div class="max-dates">
+						<h2 id="max_d6" class="max-d">0</h2>
+						<h2 id="max_d5" class="max-d">0</h2>
+						<h2 id="max_d4" class="max-d">0</h2>
+						<h2 id="max_d3" class="max-d">0</h2>
+						<h2 id="max_d2" class="max-d">0</h2>
+						<h2 id="max_d1" class="max-d">0</h2>
+						<h2 id="max_d0" class="max-d">0</h2>
+					</div>
+				</div>
+
+
+
+				<!--chart 2 - total deaths - LAST 7 DAYS-->
+
+				<div class="chart1">
+					<h1 id="death-d">TOTAL DEATHS - LAST 7 DAYS</h1>
+
+					<div class="max">
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+						<div class="max-ch"></div>
+					</div>
+
+					<div class="value">
+						<div id="death-d6" class="max-v"></div>
+						<div id="death-d5" class="max-v"></div>
+						<div id="death-d4" class="max-v"></div>
+						<div id="death-d3" class="max-v"></div>
+						<div id="death-d2" class="max-v"></div>
+						<div id="death-d1" class="max-v"></div>
+						<div id="death-d0" class="max-v"></div>
+					</div>
+
+					<div class="max-dates">
+						<h2 id="max_d66" class="max-d">0</h2>
+						<h2 id="max_d55" class="max-d">0</h2>
+						<h2 id="max_d44" class="max-d">0</h2>
+						<h2 id="max_d33" class="max-d">0</h2>
+						<h2 id="max_d22" class="max-d">0</h2>
+						<h2 id="max_d11" class="max-d">0</h2>
+						<h2 id="max_d00" class="max-d">0</h2>
+					</div>
+				</div>
+
+
+
+
+
+
+				<div class="heading">
+					<div class="state-name-0">
+						<h1 class="state-text-1" id="s0-name">DATE</h1>
+					</div>
+					<div class="state-total-0">
+						<h1 class="state-text-1" id="s0-total">CASES</h1>
+					</div>
+					<div class="state-deaths-0">
+						<h1 class="state-text-1" id="s0-deaths">DEATHS</h1>
+					</div>
+				</div>
+
+				<br><br><br>
+
+				<!--			state data-->
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1 id="d1-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d1-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d1-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s2">
+					<div class="state-name-1">
+						<h1 id="d2-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d2-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d2-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s3">
+					<div class="state-name-1">
+						<h1 id="d3-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d3-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d3-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s4">
+					<div class="state-name-1">
+						<h1 id="d4-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d4-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d4-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s5">
+					<div class="state-name-1">
+						<h1 id="d5-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d5-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d5-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s6">
+					<div class="state-name-1">
+						<h1 id="d6-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d6-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d6-deaths">...</h1>
+					</div>
+				</div>
+
+				<div class="s s7">
+					<div class="state-name-1">
+						<h1 id="d7-name">...</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="d7-total">...</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="d7-deaths">...</h1>
+					</div>
+				</div>
+
+			</div>
+
+
+			<!--		patient's age chart -->
+
+			<div id="chart" class="chart2">
+
+				<h1 id="total-d" class="chart2-t">TOTAL CASES BY PATIENT'S AGE</h1>
+
+
+				<div class="heading">
+					<div class="state-name-0">
+						<h1 class="state-text-1" id="s0-name">AGE (YEARS)</h1>
+					</div>
+					<div class="state-total-0">
+						<h1 class="state-text-1" id="s0-total">TOTAL</h1>
+					</div>
+					<div class="state-deaths-0">
+						<h1 class="state-text-1" id="s0-deaths">%</h1>
+					</div>
+				</div>
+
+				<br><br><br>
+
+				<!--			state data-->
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>0 - 10</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c1">98</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p1">4.18</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>11 - 20</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c2">228</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p2">9.72</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>21 - 30</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c3">514</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p3">21.92</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>31 - 40</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c4">537</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p4">22.9</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>41 - 50</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c5">383</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p5">16.33</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>51 - 60</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c1">306</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p1">13.05</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>61 - 70</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c1">204</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p1">8.7</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>71 - 80</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c1">61</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p1">2.6</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>81 - 90</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c1">10</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p1">0.42</h1>
+					</div>
+				</div>
+
+				<div class="s s1">
+					<div class="state-name-1">
+						<h1>91 - 100+</h1>
+					</div>
+					<div class="state-total-1">
+						<h1 id="c1">3</h1>
+					</div>
+					<div class="state-deaths-1">
+						<h1 id="p1">0.12</h1>
+					</div>
+				</div>
+
+
+				<h1 class="chart2-t2">SAMPLE SIZE : 2,344 PATIENTS</h1>
+
+
+
+
+			</div>
+
+
+
+			<a href="https://druh.in">
+				<!--		<img id="druhin" class="druhin" alt="Made by Druhin" src="assets/Druhin%20light.svg">-->
+				<h1 class="madeby">Made by</h1>
+				<div id="druhin" class="druhin">
+					<h1>DRUH</h1>
+					<h2>IN</h2>
+				</div>
 			</a>
 
-			<a href="https://github.com/CoronaVirusApp/CoronaVirusApp.github.io/blob/master/README.md#whats-new-">
-				<h1><u>Release 3.1</u></h1>
-			</a>
 
-			<a href="https://github.com/Druhin13">
-				<h1><u>GitHub</u></h1>
-			</a>
+			<div class="footer">
+
+				<a href="https://github.com/CoronaVirusApp/CoronaVirusApp.github.io/blob/master/new%20CoronaInfo%20dashboard/corona-info/FAQ.md#faq-">
+					<h1><u>FAQ</u></h1>
+				</a>
+
+				<a href="https://github.com/CoronaVirusApp/CoronaVirusApp.github.io/blob/master/README.md#whats-new-">
+					<h1><u>Release 3.1</u></h1>
+				</a>
+
+				<a href="https://github.com/Druhin13">
+					<h1><u>GitHub</u></h1>
+				</a>
+			</div>
+
+
+
+			<!--		<script type='text/javascript' src='//pl15459463.passtechusa.com/b6/fd/b2/b6fdb2e3d86581849f5fc04788c7e500.js'></script>-->
+
+
+
 		</div>
-
-
-
-		<!--		<script type='text/javascript' src='//pl15459463.passtechusa.com/b6/fd/b2/b6fdb2e3d86581849f5fc04788c7e500.js'></script>-->
-
-
 
 	</div>
-
-
 
 
 
