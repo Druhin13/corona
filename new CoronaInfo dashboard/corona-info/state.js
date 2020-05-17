@@ -447,22 +447,22 @@ async function getData() {
 	document.getElementById("s36-deaths").innerHTML = (data.statewise[36].deaths);
 	//	console.log(data.statewise[3].deaths);
 
-
-	/******************/
-
-	//rank37
-
-	document.getElementById("s37-name").innerHTML = (data.statewise[37].state).toUpperCase();
-	//  console.log(data.statewise[4].state);
-	document.getElementById("s37-total").innerHTML = (data.statewise[37].confirmed);
-	//  console.log(data.statewise[4].confirmed);
-	document.getElementById("s37-deaths").innerHTML = (data.statewise[37].deaths);
-	//	console.log(data.statewise[4].deaths);
-
-
+//
+//	/******************/
+//
+//	//rank37
+//
+//	document.getElementById("s37-name").innerHTML = (data.statewise[37].state).toUpperCase();
+//	//  console.log(data.statewise[4].state);
+//	document.getElementById("s37-total").innerHTML = (data.statewise[37].confirmed);
+//	//  console.log(data.statewise[4].confirmed);
+//	document.getElementById("s37-deaths").innerHTML = (data.statewise[37].deaths);
+//	//	console.log(data.statewise[4].deaths);
 
 
-	for (i = 1; i <= 37; i++) {
+
+
+	for (i = 1; i <= 36; i++) {
 		if (document.getElementById("s" + i + "-name").innerHTML == "ANDAMAN AND NICOBAR ISLANDS") {
 			document.getElementById("s" + i + "-name").innerHTML = "A & N ISLANDS";
 		}

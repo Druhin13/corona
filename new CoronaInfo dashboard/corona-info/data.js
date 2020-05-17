@@ -54,9 +54,10 @@ async function getData2() {
 
 	/******************/
 
+//	console.log(data3.statewise[2].state);
 
 
-	for (i = 1; i <= 37; i++) { //going through all the data
+	for (i = 1; i <= 36; i++) { //going through all the data
 		if (data3.statewise[i].state == state) { //searching for the state name in the database
 
 			document.getElementById("state-total").innerHTML = data3.statewise[i].confirmed; //total cases
