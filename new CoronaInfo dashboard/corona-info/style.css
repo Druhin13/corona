@@ -1149,7 +1149,7 @@ a {
 	line-height: 1;
 	letter-spacing: 0.55px;
 	text-align: center;
-	color: var(--state-card-headfont-dark);
+	color: var(--state-card-headfont-light);
 	padding-top: 2.5vh;
 }
 
