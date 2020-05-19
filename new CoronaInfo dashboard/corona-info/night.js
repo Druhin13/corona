@@ -199,6 +199,6 @@ function myFunction() {
 		//		document.getElementById("notification").src = "assets/notification-dark.svg";
 	}
 
-	console.log(localStorage);
+//	console.log(localStorage);
 
 }
