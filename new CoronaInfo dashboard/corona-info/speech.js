@@ -13,7 +13,7 @@ function speech() {
 	} else {
 
 
-		responsiveVoice.enableEstimationTimeout = false;
+//		responsiveVoice.enableEstimationTimeout = false;
 
 		if (responsiveVoice.voiceSupport()) {
 			
