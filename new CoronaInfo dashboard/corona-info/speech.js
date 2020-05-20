@@ -30,8 +30,7 @@ function speech() {
 
 			//			responsiveVoice.speak(document.getElementById("india-today").textContent, "UK English Male", {pitch: 0.9});
 
-			responsiveVoice.speak("Today at - " + document.getElementById("news1-t").textContent);
-			responsiveVoice.speak(document.getElementById("news1-c").textContent);
+			responsiveVoice.speak("Today at - " + document.getElementById("news1-t").textContent + ", " + document.getElementById("news1-c").textContent);
 
 
 
