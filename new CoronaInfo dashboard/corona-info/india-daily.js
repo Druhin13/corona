@@ -32,8 +32,8 @@ async function getData4() {
 	var data2 = await response5.json();
 
 	var last = (data2.states_daily.length) - 1;
-//	console.log(data2.states_daily[last - 2].wb);
-//	console.log(data2.states_daily[last].wb);
+	//	console.log(data2.states_daily[last - 2].wb);
+	//	console.log(data2.states_daily[last].wb);
 
 	//	console.log(data.statewise);
 	//	console.log(data.statewise.length - 1);
@@ -77,9 +77,12 @@ async function getData4() {
 
 
 	document.getElementById("india-today").innerHTML = day + state_c + " CASES & " + state_d + " DEATHS";
-
-
-
+	
+	
+//	making the speaker available
+	
+	document.getElementById("donate").style.opacity = 1;
+	
 
 }
 

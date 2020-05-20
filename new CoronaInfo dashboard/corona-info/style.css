@@ -165,7 +165,7 @@ body {
 
 .card {
 	width: 93.5vw;
-	height: 320vh;
+	height: 332vh;
 	background-color: var(--card-light);
 	margin-left: 3.25vw;
 
@@ -981,11 +981,16 @@ a {
 	margin-right: 5vw;
 	margin-bottom: 3vh;
 	position: fixed;
+	
+	
+/*	hiding until data is loaded*/
+	opacity: 0;
+	
 }
 
 .donate img {
-	height: 4rem;
-	margin-top: 2rem;
+	height: 3.5rem;
+	margin-top: 2.25rem;
 }
 
 /*
@@ -1170,4 +1175,28 @@ a {
 	/* IE 9 */
 	-webkit-transform: translate(-50%, -50%);
 	/* Chrome, Safari, Opera */
+}
+
+
+
+
+/*buy me a coffee*/
+
+.buymeacoffee {
+	margin-top: 2.5vh;
+	text-align: center;
+	width: 40vw;
+	margin-left: calc(30vw - 3.25vw);
+	border-radius: 1vh;
+}
+
+
+/*product hunt*/
+
+.producthunt {
+	margin-top: 1vh;
+	text-align: center;
+	width: 50vw;
+	margin-left: calc(25vw - 3.25vw);
+	border-radius: 1vh;
 }

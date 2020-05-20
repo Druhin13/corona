@@ -10,8 +10,8 @@ function more() {
 		for (i = 11; i <= 36; i++) {
 			document.getElementById("s" + i).style.display = "flex";
 			document.getElementById("more-less").innerHTML = "SHOW LESS";
-			document.getElementById("state-card").style.height = "173vh";
-			document.getElementById("card").style.height = "434vh";
+			document.getElementById("state-card").style.height = "169vh";
+			document.getElementById("card").style.height = "444vh";
 		}
 	} else {
 		localStorage.setItem('show', 1);
@@ -19,7 +19,7 @@ function more() {
 			document.getElementById("s" + i).style.display = "none";
 			document.getElementById("more-less").innerHTML = "SHOW MORE";
 			document.getElementById("state-card").style.height = "58.5vh";
-			document.getElementById("card").style.height = "320vh";
+			document.getElementById("card").style.height = "332vh";
 
 
 		}
