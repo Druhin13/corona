@@ -2,12 +2,12 @@
 //	responsiveVoice.clickEvent();
 
 
-if (responsiveVoice.voiceSupport()) {
-	responsiveVoice.speak("How are you");
-} else {
-	document.getElementById("donate").style.opacity = 0;
-}
 
+//if (responsiveVoice.voiceSupport()) {
+//	responsiveVoice.speak("How are you");
+//} else {
+//	document.getElementById("donate").style.opacity = 0;
+//}
 
 
 
