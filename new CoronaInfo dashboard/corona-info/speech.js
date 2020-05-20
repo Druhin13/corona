@@ -3,7 +3,9 @@
 
 
 if (responsiveVoice.voiceSupport()) {
-	responsiveVoice.speak("Welcome");
+	responsiveVoice.speak("How are you");
+} else {
+	document.getElementById("donate").style.opacity = 0;
 }
 
 
