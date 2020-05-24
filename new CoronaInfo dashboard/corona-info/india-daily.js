@@ -77,12 +77,12 @@ async function getData4() {
 
 
 	document.getElementById("india-today").innerHTML = day + state_c + " CASES & " + state_d + " DEATHS";
-	
-	
-//	making the speaker available
-	
-	document.getElementById("donate").style.opacity = 1;
-	
+
+
+	//	making the speaker available
+
+	//	document.getElementById("donate").style.opacity = 1;
+
 
 }
 
