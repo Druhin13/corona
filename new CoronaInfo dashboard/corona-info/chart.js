@@ -40,7 +40,7 @@ async function getData8() {
 		}
 	}
 
-	max_case = parseInt(max_case) + 100;
+	max_case = parseInt(max_case) + 1000;
 
 	//	console.log(max_case);
 
@@ -119,7 +119,7 @@ async function getData8() {
 		}
 	}
 
-	max_deaths = parseInt(max_deaths) + 50;
+	max_deaths = parseInt(max_deaths) + 30;
 
 	//	console.log(max_deaths);
 
