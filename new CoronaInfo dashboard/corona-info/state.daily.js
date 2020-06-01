@@ -31,6 +31,11 @@ var n = month[today.getMonth()];
 
 var yesterday = today.getDate() - 1 + " " + n + " - ";
 
+if (yesterday == "0 JUN - ") {
+//	console.log("0 jun jsr");
+	yesterday = "31 MAY - "
+}
+
 //console.log(yesterday);
 
 async function getData6() {
@@ -46,9 +51,9 @@ async function getData6() {
 	var resloc = await fetch(loc);
 	var data3 = await resloc.json();
 
-//	console.log(data3);
-//	console.log(data3.region_code); // WB
-//	console.log(data3.region); // West Bengal
+	//	console.log(data3);
+	//	console.log(data3.region_code); // WB
+	//	console.log(data3.region); // West Bengal
 
 
 
@@ -64,7 +69,7 @@ async function getData6() {
 
 	var day = "TODAY - ";
 
-//	console.log(data2.states_daily[last]);
+	//	console.log(data2.states_daily[last]);
 
 	//statecodes
 
@@ -282,7 +287,7 @@ async function getData6() {
 					state_c = data2.states_daily[last - 2].wb;
 					state_d = data2.states_daily[last].wb;
 				}
-				
+
 				day = yesterday;
 
 
