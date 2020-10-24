@@ -1,23 +1,23 @@
-# Contributing to breakthru.
+# Contributing to CoronaInfo
 
-Thanks for your interest in helping breakthru.
+Thanks for your interest in helping CoronaInfo
 
 
 ## Getting Started
 
-breakthru.'s [open issues are here](https://github.com/Druhin13/corona/issues)
+CoronaInfo's [open issues are here](https://github.com/Druhin13/corona/issues)
 In time, we'll tag issues that would make a good first pull request for new contributors.
 An easy way to get started helping the project is to *create an issue*.
-You can do that on the breakthru.'s issues page by clicking on the green button at the right.
+You can do that on the CoronaInfo's issues page by clicking on the green button at the right.
 
 Issues can include bugs to fix, features to add, or documentation that looks outdated. 
 
 
 ## Contributions
 
-breakthru. welcomes contributions from everyone.
+CoronaInfo welcomes contributions from everyone.
 
-Contributions to breakthru. should be made in the form of GitHub pull requests.
+Contributions to CoronaInfo should be made in the form of GitHub pull requests.
 Each pull request will be reviewed and either landed in the master tree
 or given feedback for changes that would be required.
 
